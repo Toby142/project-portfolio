@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "tag": "favomedic",
+    "title": "Favomedic Frontend",
+    "description": "Small text about the project goes here.",
+    "about": "Detailed description or additional information about the project.",
+    "used": [
+      "Item 1",
+      "Item 2",
+      "Item 3"
+    ],
+    "other": "Any other relevant information you want to include.",
+    "links": [
+      {
+        "name": "Link 1",
+        "url": "https://example.com/link1"
+      },
+      {
+        "name": "Link 2",
+        "url": "https://example.com/link2"
+      }
+    ],
+    "images": [
+      {
+        "name": "Image 1",
+        "url": "https://media.discordapp.net/attachments/1108444669974695997/1109180229383106670/image.png?width=108&height=112"
+      },
+      {
+        "name": "Image 2",
+        "url": "https://cdn.discordapp.com/attachments/1108444669974695997/1109180155668221982/image.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "tag": "PainterAPI",
+    "title": "project two",
+    "description": "Small text about the project goes here.",
+    "about": "Detailed description or additional information about the project.",
+    "used": [
+      "Item 1",
+      "Item 2",
+      "Item 3"
+    ],
+    "other": "Any other relevant information you want to include.",
+    "links": [
+      {
+        "name": "Link 1",
+        "url": "https://example.com/link1"
+      },
+      {
+        "name": "Link 2",
+        "url": "https://example.com/link2"
+      }
+    ],
+    "images": [
+      {
+        "name": "Image 1",
+        "url": "https://example.com/image1"
+      },
+      {
+        "name": "Image 2",
+        "url": "https://example.com/image2"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "tag": "JS-Dice",
+    "title": "project three",
+    "description": "Small text about the project goes here.",
+    "about": "Detailed description or additional information about the project.",
+    "used": [
+      "Item 1",
+      "Item 2",
+      "Item 3"
+    ],
+    "other": "Any other relevant information you want to include.",
+    "links": [
+      {
+        "name": "Link 1",
+        "url": "https://example.com/link1"
+      },
+      {
+        "name": "Link 2",
+        "url": "https://example.com/link2"
+      }
+    ],
+    "images": [
+      {
+        "name": "Image 1",
+        "url": "https://example.com/image1"
+      },
+      {
+        "name": "Image 2",
+        "url": "https://example.com/image2"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "tag": "JS-Canvas",
+    "title": "project four",
+    "description": "Small text about the project goes here."
+  },
+  {
+    "id": 5,
+    "tag": "Php-Login",
+    "title": "project five",
+    "description": "Small text about the project goes here."
+  },
+  {
+    "id": 6,
+    "tag": "Terminal",
+    "title": "terminal portfolio",
+    "description": "Small text about the project goes here."
+  },
+  {
+    "id": 7,
+    "tag": "BJ game",
+    "title": "Blackjack game",
+    "description": "Small text about the project goes here."
+  },
+  {
+    "id": 8,
+    "tag": "project8",
+    "title": "Blackjack eight",
+    "description": "Small text about the project goes here."
+  }
+
+
+
+]

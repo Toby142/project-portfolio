@@ -1,0 +1,13 @@
+<div class="nav">
+  <a routerLink="/home" class="text-3xl text-white bg-black p-3 w-16 text-center">
+    <
+  </a>
+  <input class="nav-title" placeholder="Q PROJECT" type="text" #projectInput (input)="filterProjects(projectInput.value)">
+</div>
+
+<div class="list">
+  <a *ngFor="let p of projects" class="list-project" [routerLink]="['/project/', p.id]">
+    <div class="text-xl ">{{p.title}}</div>
+    <div class="text-sm">{{p.description}}</div>
+  </a>
+</div>

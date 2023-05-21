@@ -1,0 +1,22 @@
+<a routerLink="/home">back</a>
+<p>project works!</p>
+
+<div *ngIf="project" class="flex flex-col">
+  <div>{{project.title}}</div>
+  <div>{{project.description}}</div>
+  <div>{{project.about}}</div>
+  <ul>
+    <li *ngFor="let item of project.used">
+      {{ item }}
+    </li>
+  </ul>
+  <div>{{project.other}}</div>
+  <ul>
+    <li *ngFor="let link of project.links">
+      <a [href]="link.url" target="_blank">{{ link.name }}</a>
+    </li>
+  </ul>
+  <div *ngFor="let image of project.images">
+    <img [src]="image.url" [alt]="image.name" />
+  </div>
+</div>

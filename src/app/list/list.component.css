@@ -1,0 +1,15 @@
+.nav {
+  @apply flex flex-row w-full;
+}
+.nav-title {
+  @apply w-full text-3xl p-3;
+  background: #CCFF00;
+}
+.list {
+  @apply flex flex-col space-y-2;
+}
+
+.list-project {
+  @apply py-2;
+  border-bottom: black 1px solid;
+}

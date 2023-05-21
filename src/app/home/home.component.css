@@ -1,0 +1,85 @@
+.header {
+  background: #CCFF00;
+}
+.border {
+  border: 1px solid #000;
+}
+
+.header-title {
+  @apply text-5xl font-bold p-2 pt-5;
+  line-height: 110%;
+}
+
+.header-button {
+  @apply h-full m-4 px-10 py-3 font-bold text-xl;
+  border-radius: 50%;
+  cursor: pointer;
+/*  no text select */
+  user-select: none;
+}
+
+.box {
+  @apply flex flex-col w-1/2 p-2 py-3 justify-between space-y-3;
+  color: white;
+}
+
+.box-aboutme {
+  background: #231F1C;
+  text-align: center;
+} .box-aboutme img {
+  @apply my-auto;
+  width: 100px;
+  height: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.box-featured {
+  background: #3233FF;
+}
+
+.star {
+  @apply flex text-3xl items-center;
+  color: #FFD700;
+}
+
+.img-circle {
+  @apply items-center justify-center;
+  position: absolute;
+  height: 130px;
+  width: 100px;
+  border: 1px dashed white;
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+.home {
+  background: #CCFF00;
+}
+
+
+.list-container {
+  @apply flex flex-row overflow-x-scroll mt-5;
+}
+
+.link-box {
+  display: inline-block;
+  width: 50px;
+  height: 100px;
+  position: relative;
+  border: 1px solid black;
+}
+
+.link-text {
+  display: block;
+  transform: rotate(-90deg) translateY(100%);
+  transform-origin: left bottom;
+  white-space: nowrap;
+  width: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  line-height: 50px;
+}
