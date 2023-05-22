@@ -1,5 +1,60 @@
-<a routerLink="/home">back</a>
-<p>project works!</p>
+
+
+
+
+<div class="w-full">
+  <div class="back-button" [routerLink]="['/home']">BACK</div>
+</div>
+
+<div class="project-container">
+  <div class="title-button-content" (click)="toggleOpen()">PROJECT</div>
+  <div class="project-content" *ngIf="projectContentOpen && project">
+    <div class="section">
+      <div class="text-3xl font-semibold uppercase">{{project.title}}</div>
+      <div>{{project.description}}</div>
+    </div>
+
+    <div class="section">
+      <div class="text-2xl font-semibold">ABOUT</div>
+      <div>{{project.about}}</div>
+    </div>
+
+    <div class="section">
+      <div class="text-2xl font-semibold">USED</div>
+      <ul class="used-list">
+        <li *ngFor="let item of project.used">
+          {{ item }}
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="text-2xl font-semibold">OTHER</div>
+      <div>{{project.other}}</div>
+    </div>
+
+    <div class="section">
+      <div class="text-2xl font-semibold">LINKS</div>
+      <ul class="links-list">
+        <li *ngFor="let link of project.links">
+          <a [href]="link.url" target="_blank">{{ link.name }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="pictures-container">
+  <div class="title-button-pictures" (click)="toggleOpen()">PICTURES</div>
+  <div class="pictures-content" *ngIf="projectPicturesOpen && project">
+    <div *ngFor="let image of project.images" class="image-container">
+      <img class="img" [src]="image.url" [alt]="image.name" />
+      <div class="text-3xl font-semibold uppercase">{{image.name}}</div>
+    </div>
+  </div>
+</div>
+
+<!-- 
 
 <div *ngIf="project" class="flex flex-col">
   <div>{{project.title}}</div>
@@ -19,4 +74,4 @@
   <div *ngFor="let image of project.images">
     <img [src]="image.url" [alt]="image.name" />
   </div>
-</div>
+</div> -->

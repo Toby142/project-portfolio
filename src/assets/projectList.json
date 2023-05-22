@@ -24,11 +24,15 @@
     "images": [
       {
         "name": "Image 1",
-        "url": "https://media.discordapp.net/attachments/1108444669974695997/1109180229383106670/image.png?width=108&height=112"
+        "url": "/assets/images/placeholder-img.jpg"
       },
       {
         "name": "Image 2",
-        "url": "https://cdn.discordapp.com/attachments/1108444669974695997/1109180155668221982/image.png"
+        "url": "/assets/images/placeholder-img.jpg"
+      },
+      {
+        "name": "portfolio",
+        "url": "/assets/images/placeholder-img.jpg"
       }
     ]
   },

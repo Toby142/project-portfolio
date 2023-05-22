@@ -34,6 +34,9 @@ export class ProjectComponent {
   project: Project | undefined;
   projects: Project[] = [];
 
+  projectContentOpen = true;
+  projectPicturesOpen = false;
+
   constructor(private route: ActivatedRoute, private http: HttpClient) {}
 
   ngOnInit(): void {
@@ -58,5 +61,18 @@ export class ProjectComponent {
       }
     });
   }
+  
+  toggleOpen() {
+    if (this.projectContentOpen) {
+      this.projectContentOpen = false;
+      this.projectPicturesOpen = true;
+    } else if (this.projectPicturesOpen) {
+      this.projectContentOpen = true;
+      this.projectPicturesOpen = false;
+    }
+  }
 
+  logBoth() {
+    console.log(this.projectContentOpen, this.projectPicturesOpen);
+  }
 }
