@@ -3,136 +3,21 @@
     "id": 1,
     "tag": "favomedic",
     "title": "Favomedic Frontend",
-    "description": "Small text about the project goes here.",
-    "about": "Detailed description or additional information about the project.",
+    "description": "A web application for Favomedic, during my internship at Jarpis.",
+    "about": "During my internship at Jarpis, I had the opportunity to contribute to the development of the front-end for the impressive web application, Favomedic. Within this role, my primary focus was on creating aesthetically pleasing and well-designed components. As I grew more proficient, my responsibilities expanded to encompass writing and implementing the application's core logic.",
     "used": [
-      "Item 1",
-      "Item 2",
-      "Item 3"
+      "Angular",
+      "TypeScript",
+      "Tailwind CSS",
+      "ng-zorro-antd"
     ],
-    "other": "Any other relevant information you want to include.",
-    "links": [
-      {
-        "name": "Link 1",
-        "url": "https://example.com/link1"
-      },
-      {
-        "name": "Link 2",
-        "url": "https://example.com/link2"
-      }
-    ],
+    "other": "This is the project where I learned to work with the Angular framework and TypeScript. This also gave me a look in how web-apps are build, I have learned a lot from this project.",
     "images": [
       {
         "name": "Image 1",
-        "url": "/assets/images/placeholder-img.jpg"
-      },
-      {
-        "name": "Image 2",
-        "url": "/assets/images/placeholder-img.jpg"
-      },
-      {
-        "name": "portfolio",
-        "url": "/assets/images/placeholder-img.jpg"
+        "description": "This is the first image",
+        "url": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1"
       }
     ]
-  },
-  {
-    "id": 2,
-    "tag": "PainterAPI",
-    "title": "project two",
-    "description": "Small text about the project goes here.",
-    "about": "Detailed description or additional information about the project.",
-    "used": [
-      "Item 1",
-      "Item 2",
-      "Item 3"
-    ],
-    "other": "Any other relevant information you want to include.",
-    "links": [
-      {
-        "name": "Link 1",
-        "url": "https://example.com/link1"
-      },
-      {
-        "name": "Link 2",
-        "url": "https://example.com/link2"
-      }
-    ],
-    "images": [
-      {
-        "name": "Image 1",
-        "url": "https://example.com/image1"
-      },
-      {
-        "name": "Image 2",
-        "url": "https://example.com/image2"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "tag": "JS-Dice",
-    "title": "project three",
-    "description": "Small text about the project goes here.",
-    "about": "Detailed description or additional information about the project.",
-    "used": [
-      "Item 1",
-      "Item 2",
-      "Item 3"
-    ],
-    "other": "Any other relevant information you want to include.",
-    "links": [
-      {
-        "name": "Link 1",
-        "url": "https://example.com/link1"
-      },
-      {
-        "name": "Link 2",
-        "url": "https://example.com/link2"
-      }
-    ],
-    "images": [
-      {
-        "name": "Image 1",
-        "url": "https://example.com/image1"
-      },
-      {
-        "name": "Image 2",
-        "url": "https://example.com/image2"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "tag": "JS-Canvas",
-    "title": "project four",
-    "description": "Small text about the project goes here."
-  },
-  {
-    "id": 5,
-    "tag": "Php-Login",
-    "title": "project five",
-    "description": "Small text about the project goes here."
-  },
-  {
-    "id": 6,
-    "tag": "Terminal",
-    "title": "terminal portfolio",
-    "description": "Small text about the project goes here."
-  },
-  {
-    "id": 7,
-    "tag": "BJ game",
-    "title": "Blackjack game",
-    "description": "Small text about the project goes here."
-  },
-  {
-    "id": 8,
-    "tag": "project8",
-    "title": "Blackjack eight",
-    "description": "Small text about the project goes here."
   }
-
-
-
 ]

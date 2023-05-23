@@ -6,7 +6,7 @@
   <div class="back-button" [routerLink]="['/home']">BACK</div>
 </div>
 
-<div class="project-container">
+<div class="project-container" id="project-container">
   <div class="title-button-content" (click)="toggleOpen()">PROJECT</div>
   <div class="project-content" *ngIf="projectContentOpen && project">
     <div class="section">
@@ -14,12 +14,12 @@
       <div>{{project.description}}</div>
     </div>
 
-    <div class="section">
+    <div class="section" *ngIf="project.about">
       <div class="text-2xl font-semibold">ABOUT</div>
       <div>{{project.about}}</div>
     </div>
 
-    <div class="section">
+    <div class="section" *ngIf="project.used">
       <div class="text-2xl font-semibold">USED</div>
       <ul class="used-list">
         <li *ngFor="let item of project.used">
@@ -33,7 +33,7 @@
       <div>{{project.other}}</div>
     </div>
 
-    <div class="section">
+    <div class="section" *ngIf="project.links">
       <div class="text-2xl font-semibold">LINKS</div>
       <ul class="links-list">
         <li *ngFor="let link of project.links">
@@ -44,12 +44,13 @@
   </div>
 </div>
 
-<div class="pictures-container">
+<div class="pictures-container" id="pictures-container">
   <div class="title-button-pictures" (click)="toggleOpen()">PICTURES</div>
   <div class="pictures-content" *ngIf="projectPicturesOpen && project">
     <div *ngFor="let image of project.images" class="image-container">
       <img class="img" [src]="image.url" [alt]="image.name" />
       <div class="text-3xl font-semibold uppercase">{{image.name}}</div>
+      <div *ngIf="image.description">{{image.description}}</div>
     </div>
   </div>
 </div>

@@ -20,6 +20,7 @@ interface Link {
 
 interface Images {
   name: string;
+  description: string;
   url: string;
 }
 
@@ -71,6 +72,10 @@ export class ProjectComponent {
       this.projectPicturesOpen = false;
     }
   }
+  
+  
+  
+  
 
   logBoth() {
     console.log(this.projectContentOpen, this.projectPicturesOpen);
