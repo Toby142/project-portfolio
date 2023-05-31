@@ -73,10 +73,6 @@ export class ProjectComponent {
     }
   }
   
-  
-  
-  
-
   logBoth() {
     console.log(this.projectContentOpen, this.projectPicturesOpen);
   }

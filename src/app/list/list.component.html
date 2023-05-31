@@ -6,8 +6,15 @@
 </div>
 
 <div class="list">
+  <!-- list of the projects -->
   <a *ngFor="let p of projects" class="list-project" [routerLink]="['/project/', p.id]">
     <div class="text-xl ">{{p.title}}</div>
     <div class="text-sm">{{p.description}}</div>
   </a>
+
+  <!-- nothing found prompt -->
+  <div class="text-center my-10" *ngIf="projects.length === 0">
+    <div class="text-3xl">:/</div>
+    <div class="text-xl">No projects found</div>
+  </div>
 </div>

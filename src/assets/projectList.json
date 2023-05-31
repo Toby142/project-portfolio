@@ -19,5 +19,36 @@
         "url": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1"
       }
     ]
+  },
+  {
+    "id": 2,
+    "tag": "js-dice",
+    "title": "JS Dice",
+    "description": "A simple dice game made with JavaScript. Object-oriented programming",
+    "about": "This is a simple dice game made with JavaScript. The goal of the project was to learn OOP in JavaScript. The game is made with a class for the dice and a class for the game.",
+    "used": [
+      "JavaScript",
+      "Object-Oriented Programming",
+      "HTML"
+    ]
+  },
+  {
+    "id": 3,
+    "tag": "Projects Portfolio",
+    "title": "Projects Portfolio",
+    "description": "A portfolio website to showcase my projects.",
+    "about": "This is the website you are currently on. I made this website to showcase my projects. The structure of the project has 2 core components: The list of projects, and the project page.",
+    "used": [
+      "Angular",
+      "Tailwind CSS",
+      "Json"
+    ],
+    "other": "I coded this project with the idea to get everything from the json file (like an API response). The project link sends an id, and the project page handels all the data.",
+    "links": [
+      {
+        "name": "Github/Toby142/project-portfolio",
+        "url": "https://github.com/Toby142/project-portfolio"
+      }
+    ]
   }
 ]
