@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 
 interface Project {
@@ -19,6 +19,7 @@ interface Images {
 })
 export class ListComponent {
   projects: Project[] = [];
+  @Input() showNav: boolean = true;
 
   constructor(private http: HttpClient) {}
 
