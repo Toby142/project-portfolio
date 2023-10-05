@@ -48,7 +48,10 @@
   <div class="title-button-pictures" (click)="toggleOpen()">PICTURES</div>
   <div class="pictures-content" *ngIf="projectPicturesOpen && project">
     <div *ngFor="let image of project.images" class="image-container">
-      <img class="img" [src]="image.url" [alt]="image.name" />
+      <!-- <img class="img" [src]="image.url" [alt]="image.name" /> -->
+
+      <img class="img" [defaultImage]="defaultImage" [lazyLoad]="image.url">
+
       <div class="text-3xl font-semibold uppercase">{{image.name}}</div>
       <div *ngIf="image.description">{{image.description}}</div>
     </div>

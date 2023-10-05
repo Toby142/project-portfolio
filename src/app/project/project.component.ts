@@ -38,6 +38,8 @@ export class ProjectComponent {
   projectContentOpen = true;
   projectPicturesOpen = false;
 
+  defaultImage = '/assets/images/placeholder-img.jpg';
+
   constructor(private route: ActivatedRoute, private http: HttpClient) {}
 
   ngOnInit(): void {

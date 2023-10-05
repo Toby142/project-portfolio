@@ -9,6 +9,8 @@ import { ProjectComponent } from './project/project.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ListComponent } from './list/list.component';
 
+import { LazyLoadImageModule } from 'ng-lazyload-image';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +21,8 @@ import { ListComponent } from './list/list.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    LazyLoadImageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -72,9 +72,9 @@
     "other": "I'm incredibly proud of this project. It was a fantastic opportunity to combine my passion for music with my development skills. Along the way, I gained valuable knowledge about Spotify authentication and exploring the Spotify Web API. Now I can groove to my favorite tracks and enjoy the aesthetics of a virtual record player!",
     "images": [
       {
-        "name": "Spotify Currently Playing Screenshot",
-        "description": "Screenshot of the Spotify Currently Playing app",
-        "url": "https://example.com/spotify-currently-playing-screenshot.png"
+        "name": "App layout",
+        "description": "Currently playing MF DOOM!",
+        "url": "/assets/images/spotify-app-1.png"
       }
     ]
   },
@@ -94,7 +94,7 @@
       {
         "name": "Doggy Screenshot",
         "description": "Screenshot of the adorable doggy appearing in VS Code",
-        "url": "https://example.com/woof-woof-screenshot.png"
+        "url": "/assets/images/placeholder-img.jpg"
       }
     ],
     "links": [
@@ -135,14 +135,7 @@
       "Tailwind CSS",
       "ng-zorro-antd"
     ],
-    "other": "This is the project where I learned to work with the Angular framework and TypeScript. This also gave me a look in how web-apps are build, I have learned a lot from this project.",
-    "images": [
-      {
-        "name": "Image 1",
-        "description": "This is the first image",
-        "url": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1"
-      }
-    ]
+    "other": "This is the project where I learned to work with the Angular framework and TypeScript. This also gave me a look in how web-apps are build, I have learned a lot from this project."
   },
   {
     "id": 7,
@@ -156,13 +149,6 @@
       "CSS"
     ],
     "other": "Working on JS Dice was a great learning experience. It allowed me to deepen my understanding of object-oriented programming principles and apply them in a practical way. Plus, who doesn't love rolling virtual dice and seeing their statistics? It's a small project, but it brought a lot of enjoyment and knowledge along the way.",
-    "images": [
-      {
-        "name": "JS Dice Screenshot",
-        "description": "Screenshot of the JS Dice project",
-        "url": "/assets/images/placeholder-img.jpg"
-      }
-    ],
     "links": [
       {
         "name": "JS Dice Website",
@@ -181,22 +167,10 @@
       "CSS"
     ],
     "other": "I enjoyed the freedom to create a custom and interactive user experience. It was an excellent learning experience that enhanced my skills in web development.",
-    "images": [
-      {
-        "name": "Image 1",
-        "description": "Screenshot of the Terminal Portfolio",
-        "url": "https://example.com/image1.jpg"
-      },
-      {
-        "name": "Image 2",
-        "description": "Another screenshot of the Terminal Portfolio",
-        "url": "https://example.com/image2.jpg"
-      }
-    ],
     "links": [
       {
         "name": "Github Repo",
-        "url": "asdf"
+        "url": "https://github.com/Toby142/TerminalPortofolio"
       },
       {
         "name": "Project Portfolio Website",
