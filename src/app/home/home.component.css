@@ -1,4 +1,17 @@
+.header-container {
+  @apply lg:flex lg:flex-row justify-between;
+}
+
+/* meadia break lg */
+@media (min-width: 1024px) {
+  .header-container {
+    height: 50vh;
+  }
+}
+
+
 .header {
+  @apply lg:flex lg:w-1/2;
   background: #CCFF00;
 }
 .border {
@@ -41,7 +54,7 @@
 
 .star {
   @apply flex text-3xl items-center;
-  color: #FFD700;
+  color: #00000000;
 }
 
 .img-circle {

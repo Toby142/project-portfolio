@@ -10,13 +10,17 @@ import { HttpClientModule } from '@angular/common/http';
 import { ListComponent } from './list/list.component';
 
 import { LazyLoadImageModule } from 'ng-lazyload-image';
+import { FeaturedProjectsComponent } from './featured-projects/featured-projects.component';
+import { DesktopProjectShowcaseComponent } from './desktop-project-showcase/desktop-project-showcase.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ProjectComponent,
-    ListComponent
+    ListComponent,
+    FeaturedProjectsComponent,
+    DesktopProjectShowcaseComponent
   ],
   imports: [
     BrowserModule,
