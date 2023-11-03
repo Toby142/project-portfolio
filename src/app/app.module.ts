@@ -12,6 +12,7 @@ import { ListComponent } from './list/list.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { FeaturedProjectsComponent } from './featured-projects/featured-projects.component';
 import { DesktopProjectShowcaseComponent } from './desktop-project-showcase/desktop-project-showcase.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DesktopProjectShowcaseComponent } from './desktop-project-showcase/desk
     ProjectComponent,
     ListComponent,
     FeaturedProjectsComponent,
-    DesktopProjectShowcaseComponent
+    DesktopProjectShowcaseComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,

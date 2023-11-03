@@ -2,13 +2,19 @@
   @apply lg:flex lg:flex-row justify-between;
 }
 
+.list-desktop {
+  display: none;
+} 
+
 /* meadia break lg */
 @media (min-width: 1024px) {
   .header-container {
     height: 50vh;
   }
+  .list-desktop {
+    display: block;
+  }
 }
-
 
 .header {
   @apply lg:flex lg:w-1/2;
@@ -96,3 +102,4 @@
   text-align: center;
   line-height: 50px;
 }
+
