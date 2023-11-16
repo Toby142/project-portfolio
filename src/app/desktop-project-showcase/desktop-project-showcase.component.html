@@ -1,0 +1,13 @@
+<div class="text-5xl font-bold">PROJECT SHOWCASE DESKTOP</div>
+<div class="flex flex-col">
+
+    <div *ngFor="let p of project" class="image-background bg-primary">
+        <!-- <img *ngIf="this.p.images.length > 0 " src="{{this.p.images[0].url}}" alt=""> -->
+        <div class="mt-4 text-2xl font-bold text-center">{{this.p.title}}</div>
+    </div>
+
+    <!-- <div class="image-background bg-secondary" *ngFor="let project as project">
+        <img src="{{this.project.images.url}}" alt="">
+        <div class="mt-4 text-2xl font-bold text-center text-white">{{this.project.title}}</div>
+    </div> -->
+</div>

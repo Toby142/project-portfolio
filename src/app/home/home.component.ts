@@ -24,4 +24,8 @@ export class HomeComponent {
       this.projects = data;
     });
   }
+
+  scrollUp() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
 }

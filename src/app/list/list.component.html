@@ -1,4 +1,4 @@
-<div class="nav">
+<div class="nav" *ngIf="showNav">
   <a routerLink="/home" class="text-3xl text-white bg-black p-3 w-16 text-center">
     <
   </a>
@@ -9,7 +9,7 @@
   <!-- list of the projects -->
   <a *ngFor="let p of projects" class="list-project" [routerLink]="['/project/', p.id]">
     <div class="text-xl ">{{p.title}}</div>
-    <div class="text-sm">{{p.description}}</div>
+    <div class="text-xs">{{p.description}}</div>
   </a>
 
   <!-- nothing found prompt -->

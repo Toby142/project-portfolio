@@ -1,0 +1,33 @@
+.header {
+    @apply bg-secondary text-white text-5xl font-semibold p-5 text-center;
+    border-top: 2px solid white;	
+}
+
+.profile-img {
+    @apply my-2;
+    width: 100px;
+    height: 130px;
+    border: 1px dashed black;    
+    object-fit: cover;
+}
+
+.section {
+    @apply my-5;
+}
+
+.section-img-right {
+    @apply flex flex-row-reverse;
+}
+
+.block {
+    @apply bg-primary w-2/3 p-2;
+    height: 150px
+}
+
+.section-img-right img{
+    @apply px-10 py-2;
+    width: 100%;
+    transform: scaleX(-1);
+    position: absolute;
+}
+

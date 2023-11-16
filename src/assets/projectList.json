@@ -1,42 +1,114 @@
 [
   {
     "id": 1,
-    "tag": "favomedic",
-    "title": "Favomedic Frontend",
-    "description": "A web application for Favomedic, during my internship at Jarpis.",
-    "about": "During my internship at Jarpis, I had the opportunity to contribute to the development of the front-end for the impressive web application, Favomedic. Within this role, my primary focus was on creating aesthetically pleasing and well-designed components. As I grew more proficient, my responsibilities expanded to encompass writing and implementing the application's core logic.",
+    "tag": "anna-housing",
+    "title": "Anna Housing",
+    "description": "A website for Anna Housing showcasing a house in Scheveningen.",
+    "about": "I developed this website for Anna Housing using Angular. The design of the website is clean and modern, with a focus on simplicity and elegance. I built the entire website from scratch, including the design, layout, and functionality. One of the notable features of the website is the integration of EmailJS, which allows visitors to send inquiries directly from the website.",
     "used": [
       "Angular",
-      "TypeScript",
-      "Tailwind CSS",
-      "ng-zorro-antd"
+      "EmailJS"
     ],
-    "other": "This is the project where I learned to work with the Angular framework and TypeScript. This also gave me a look in how web-apps are build, I have learned a lot from this project.",
+    "other": "This project was one of my first paid Angular websites, and it provided me with valuable experience in working with Angular and implementing client-side functionality. I thoroughly enjoyed creating this website and delivering a high-quality product to Anna Housing.",
     "images": [
       {
-        "name": "Image 1",
-        "description": "This is the first image",
-        "url": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1"
+        "name": "Anna Housing",
+        "description": "Screenshot",
+        "url": "/assets/images/anna-housing-1.png"
+      },
+      {
+        "name": "Anna Housing",
+        "description": "Screenshot",
+        "url": "/assets/images/anna-housing-2.png"
+      },
+      {
+        "name": "Anna Housing",
+        "description": "Screenshot",
+        "url": "/assets/images/anna-housing-3.png"
+      }
+    ],
+    "links": [
+      {
+        "name": "Github Repo",
+        "url": "https://github.com/Toby142/anna-housing"
       }
     ]
   },
   {
     "id": 2,
-    "tag": "js-dice",
-    "title": "JS Dice",
-    "description": "A simple dice game made with JavaScript. Object-oriented programming",
-    "about": "This is a simple dice game made with JavaScript. The goal of the project was to learn OOP in JavaScript. The game is made with a class for the dice and a class for the game.",
+    "tag": "painter-api",
+    "title": "Painter API",
+    "description": "An API showcasing old painters and their artwork, like an Instagram for old painters.",
+    "about": "This project was born during my internship, and it's all about celebrating the works of old painters. Think of it as an Instagram for old painters! I developed this API using Spring Boot and Java, putting my skills to the test. It provides various endpoints to manage painters and their artwork, allowing you to explore and interact with their masterpieces.",
     "used": [
-      "JavaScript",
-      "Object-Oriented Programming",
-      "HTML"
+      "Spring Boot",
+      "Java"
+    ],
+    "other": "Developing this API was a fantastic opportunity for me to dive into the world of web development and showcase my abilities with Spring Boot and Java. It was a labor of love, and I hope it sparks your interest in the remarkable works of old painters!",
+    "images": [
+      {
+        "name": "API Screenshot",
+        "description": "Screenshot of the Painter API in action",
+        "url": "/assets/images/painter-api-1.png"
+      }
+    ],
+    "links": [
+      {
+        "name": "Github Repo",
+        "url": "https://github.com/Toby142/painter-api"
+      }
     ]
   },
   {
     "id": 3,
+    "tag": "spotify-currently-playing",
+    "title": "What you listening to?",
+    "description": "A project that displays your currently playing Spotify song, inspired by the aesthetic of a record player.",
+    "about": "As a huge music lover, I'm always jamming to my favorite tunes. However, I don't have all the records I'd like to see spinning on a turntable. That's why I created this app using Angular and the Spotify Web API. It allows you to log in to your Spotify account and shows you the song you're currently playing, giving you that nostalgic feeling of watching a record spin on a turntable.",
+    "used": [
+      "Angular",
+      "Spotify Web API"
+    ],
+    "other": "I'm incredibly proud of this project. It was a fantastic opportunity to combine my passion for music with my development skills. Along the way, I gained valuable knowledge about Spotify authentication and exploring the Spotify Web API. Now I can groove to my favorite tracks and enjoy the aesthetics of a virtual record player!",
+    "images": [
+      {
+        "name": "App layout",
+        "description": "Currently playing MF DOOM!",
+        "url": "/assets/images/spotify-app-1.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "tag": "dog-extension",
+    "title": "Dog Extension",
+    "description": "It's a VS Code extension that brings a doggy to your screen when you type 'Woof Woof'",
+    "about": "Hey there! So, I created this super cool extension for VS Code, and it's all about dogs! Whenever you type 'Woof Woof' while coding, a cute doggy pops up on your screen. It's meant to keep you happy, motivated, and have a bit of fun during your coding sessions!",
+    "used": [
+      "Visual Studio Code API",
+      "TypeScript",
+      "Random Dog API"
+    ],
+    "other": "This project was a blast! I got to dig into the world of VS Code extension development and let my creativity run wild. It's a small thing, but I hope it brings a smile to your face and brightens up your coding experience!",
+    "images": [
+      {
+        "name": "Doggy Screenshot",
+        "description": "Screenshot of the adorable doggy appearing in VS Code",
+        "url": "/assets/images/placeholder-img.jpg"
+      }
+    ],
+    "links": [
+      {
+        "name": "Github Repo",
+        "url": "https://github.com/Toby142/dog-extention"
+      }
+    ]
+  },
+  {
+    "id": 5,
     "tag": "Projects Portfolio",
     "title": "Projects Portfolio",
-    "description": "A portfolio website to showcase my projects.",
+    "description": "A portfolio website to showcase all of my projects.",
     "about": "This is the website you are currently on. I made this website to showcase my projects. The structure of the project has 2 core components: The list of projects, and the project page.",
     "used": [
       "Angular",
@@ -50,5 +122,61 @@
         "url": "https://github.com/Toby142/project-portfolio"
       }
     ]
+  },
+  {
+    "id": 6,
+    "tag": "favomedic",
+    "title": "Favomedic Frontend",
+    "description": "A web application for Favomedic, during my internship at Jarpis.",
+    "about": "During my internship at Jarpis, I had the opportunity to contribute to the development of the front-end for the impressive web application, Favomedic. Within this role, my primary focus was on creating aesthetically pleasing and well-designed components. As I grew more proficient, my responsibilities expanded to encompass writing and implementing the application's core logic.",
+    "used": [
+      "Angular",
+      "TypeScript",
+      "Tailwind CSS",
+      "ng-zorro-antd"
+    ],
+    "other": "This is the project where I learned to work with the Angular framework and TypeScript. This also gave me a look in how web-apps are build, I have learned a lot from this project."
+  },
+  {
+    "id": 7,
+    "tag": "js-dice",
+    "title": "JS Dice",
+    "description": "A simple dice game made with JavaScript. Object-oriented programming",
+    "about": "This was a school assignment where I built a dice using JavaScript. The main focus of the project was to enhance our object-oriented programming skills while having some fun with dice rolling. The project also includes functionality to gather statistics about the rolled dice, giving you insights into your luck!",
+    "used": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "other": "Working on JS Dice was a great learning experience. It allowed me to deepen my understanding of object-oriented programming principles and apply them in a practical way. Plus, who doesn't love rolling virtual dice and seeing their statistics? It's a small project, but it brought a lot of enjoyment and knowledge along the way.",
+    "links": [
+      {
+        "name": "JS Dice Website",
+        "url": "https://sites.tobiasvandeven.nl/watheeft21ogenmaarkannietzien/"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "tag": "terminal-portfolio",
+    "title": "Terminal Portfolio",
+    "description": "A portfolio website designed as a terminal interface.",
+    "about": "I created the Terminal Portfolio as a personal project to showcase my skills and projects in a unique way. It was a fun and exciting challenge to build a portfolio that mimics a terminal interface using JavaScript and CSS. I had complete control over the design and functionality, allowing me to experiment and implement various features. This project allowed me to demonstrate my proficiency in front-end development and creativity in user interface design.",
+    "used": [
+      "JavaScript",
+      "CSS"
+    ],
+    "other": "I enjoyed the freedom to create a custom and interactive user experience. It was an excellent learning experience that enhanced my skills in web development.",
+    "links": [
+      {
+        "name": "Github Repo",
+        "url": "https://github.com/Toby142/TerminalPortofolio"
+      },
+      {
+        "name": "Project Portfolio Website",
+        "url": "https://sites.tobiasvandeven.nl/terminal/"
+      }
+    ]
   }
+
 ]

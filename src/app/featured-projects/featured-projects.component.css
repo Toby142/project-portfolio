@@ -1,0 +1,11 @@
+.image-background {
+    margin: 10px 0;
+    padding: 20px 70px;
+    cursor: pointer;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+    box-shadow: -10px 10px red;
+}
+

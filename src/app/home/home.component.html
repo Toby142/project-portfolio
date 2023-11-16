@@ -1,49 +1,69 @@
 
 <!--header-->
-<div class="header">
-  <div class="h-4/5 header-title">CHECK OUT MY <br> PROJECT PORTFOLIO!</div>
-  <a routerLink="/list" class="flex justify-end">
-    <div class="border header-button">
-      List +
-    </div>
-  </a>
-</div>
-
-<!--filler blocks-->
-<div class="flex flex-col">
-  <div class="border flex flex-row">
-    <div class="box box-aboutme">
-      <div class="text-xl">This is me!</div>
-      <div class="w-full flex flex-row justify-between">
-        <div class="star">✦</div>
-        <div class="flex flex-col">
-          <div class="img-circle"></div>
-          <img src="assets/profilePic.jpg" alt="picture of Toby the developer">
-        </div>
-        <div class="star">✦</div>
+<div class="header-container lg:flex lg:flex-row">
+  <div class="header" id="header">
+    <div class="h-4/5 header-title">CHECK OUT MY <br> PROJECT PORTFOLIO!</div>
+    <a routerLink="/list" class="flex justify-end">
+      <div class="border header-button">
+        List +
       </div>
-      <a class="text-sm underline" href="https://tobiasvandeven.nl" target="_blank">More about me!</a>
-    </div>
-    <div class="box box-featured">
-      <div class="text-2xl">Featured project!</div>
-    </div>
+    </a>
   </div>
+  
+  <!--filler blocks-->
+  <div class="flex flex-col">
+    <div class="flex flex-row">
+      <div class="box box-aboutme">
+        <div class="text-xl">This is me!</div>
+        <div class="w-full flex flex-row justify-between">
+          <div class="star color-red">✦</div>
+          <div class="flex flex-col">
+            <div class="img-circle"></div>
+            <img src="assets/profilePic.jpg" alt="picture of Toby the developer">
+          </div>
+          <div class="star color-red">✦</div>
+        </div>
+        <a class="text-xl underline" routerLink="/about" >More about me</a>
+      </div>
+      <div class="box box-featured">
+        <div class="text-xl">Have a look at my developer life.</div>
+      </div>
+    </div>
+  </div>  
 </div>
 
 
 <!--info-->
-  <div class="w-3/4 text-xs mx-1 my-3">
-    This website is to showcase all my projects this is website is about my work, see it as a blog for projects.
+  <div class="w-full text-xs mx-1 my-4">
+    This website is to showcase all my projects this is website is about my work, see it as a blog for projects. 
+   
+    <div class="font-bold">This is how it's made -> <a class="underline text-secondary" routerLink="/about">Portfolio Project</a></div>
   </div>
 
 
-<!--list-->
-  <div class="w-full ">
-    <div class="w-full flex justify-end mt-2 text-3xl font-bold">
-      COUNT {{projects.length}}
+<!--list mobile-->
+  <div class="w-full mt-5 px-1 lg:hidden">
+
+    <app-featured-projects></app-featured-projects>
+
+    <div class="w-full flex justify-end my-2 text-2xl font-bold">
+      PROJECT COUNT {{projects.length}}
     </div>
 
 
+    <app-list [showNav]="false"></app-list>
+
+    <div class="w-full mt-10 text-center text-xs">
+      Not the end...<br>
+      well, <br> 
+      it is the end of the page, <br>
+      <a (click)="scrollUp()" class="underline text-secondary">so scroll back up!</a>
+    </div>
+  </div>
+
+  <!-- list desktop -->
+  <div class="list-desktop w-full mt-5 px-1">
+    <app-desktop-project-showcase></app-desktop-project-showcase>
   </div>
 
 

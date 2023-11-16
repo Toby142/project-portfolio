@@ -1,4 +1,8 @@
-<main>
-  <router-outlet></router-outlet>
+<main role="main" [@fadeAnimation]="outlet.isActivated ? outlet.activatedRoute : ''">
+  <router-outlet #outlet="outlet"></router-outlet>
 </main>
 
+<div class="desktop-view">
+  <h1 class="text-2xl font-bold">Enter Mobile View</h1>
+  <p>The desktop version of this app is not yet available, open this app in mobile view (f12), or use your phone.</p>
+</div>
