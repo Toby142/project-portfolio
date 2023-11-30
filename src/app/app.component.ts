@@ -16,11 +16,9 @@ export class AppComponent {
   ngOnInit(): void {
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
-
-        // wait .3 seconds and then scroll to top of the page (the content is already loaded)
         setTimeout(() => {
-          window.scrollTo(0, 0);
-        }, 200);
+          window.scrollTo({top: 0, behavior: 'smooth'});
+        }, 50);
       }
     });
   }
