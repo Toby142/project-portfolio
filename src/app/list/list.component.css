@@ -4,6 +4,7 @@
 .nav-title {
   @apply w-full text-3xl p-3;
   background: #CCFF00;
+  border-radius: 0px;
 }
 .list {
   @apply flex flex-col space-y-2;
