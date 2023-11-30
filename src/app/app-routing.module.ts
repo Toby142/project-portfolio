@@ -6,6 +6,7 @@ import { ListComponent } from './list/list.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SocialsComponent } from './socials/socials.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'about', component: AboutMeComponent },
   { path: 'project/:id', component: ProjectComponent },
   { path: 'list', component: ListComponent },
+  { path: 'socials', component: SocialsComponent },
   { path: '**', redirectTo: '/home' }
 ];
 
