@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+
 .header {
     @apply bg-secondary text-white text-5xl font-semibold p-5 text-center;
     border-top: 2px solid white;	
@@ -15,19 +18,127 @@
     @apply my-5;
 }
 
-.section-img-right {
-    @apply flex flex-row-reverse;
-}
-
 .block {
     @apply bg-primary w-2/3 p-2;
-    height: 150px
+    height: 150px;
+    margin-bottom: 55px;
 }
 
-.section-img-right img{
-    @apply px-10 py-2;
-    width: 100%;
-    transform: scaleX(-1);
+
+/* base polaroid styling */
+.polaroid-stack {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.polaroid {
+    width: 150px;
+    margin: 20px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.4s ease;
 }
 
+.polaroid img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    display: block;
+    border: 1px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.caption {
+    font-family: 'Reenie Beanie', cursive;
+    color: #0039A6;
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0 0 0;
+    text-shadow: 0 1px white;
+}
+
+.polaroid:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.);
+    z-index: 1;
+}
+/* end base polaroid styling */
+
+
+/* left section */
+.section-img-left {
+    overflow-x: scroll;
+    margin-bottom: 100px;
+    padding-bottom: 25px;
+}
+
+.p-left:nth-child(1) {
+    transform: translate(-5px, -5px) rotate(5deg);
+}
+
+.p-left:nth-child(2) {
+    transform: translate(10px, 0) rotate(-5deg);
+}
+
+.p-left:nth-child(3) {
+    transform: translate(35px, -15px) rotate(3deg);
+}
+
+.polaroid-stack:hover .p-left:nth-child(1) {
+    transform: translate(200px, -5px) rotate(-2deg);
+}
+
+.polaroid-stack:hover .p-left:nth-child(2) {
+    transform: translate(100px, 0) rotate(5deg);
+}
+
+.polaroid-stack:hover .p-left:nth-child(3) {
+    transform: translate(-15px, -15px) rotate(-5deg);
+}
+
+.polaroid-stack:hover .p-left:nth-child(4) {
+    transform: translate(300px, 3px) rotate(3deg);
+}
+
+
+.section-img-right {
+    overflow-x: scroll;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* do the same but for the right side so it should be reversed */
+.p-right:nth-child(1) {
+    transform: translate(-15px, -15px) rotate(-5deg);
+}
+
+.p-right:nth-child(2) {
+    transform: translate(5px, -5px) rotate(5deg);
+}
+
+.p-right:nth-child(3) {
+    transform: translate(35px, -15px) rotate(-10deg);
+}
+
+.polaroid-stack:hover .p-right:nth-child(1) {
+    transform: translate(50px, -25px) rotate(-2deg);
+}
+
+.polaroid-stack:hover .p-right:nth-child(2) {
+    transform: translate(-150px, -10px) rotate(-3deg);
+}
+
+.polaroid-stack:hover .p-right:nth-child(3) {
+    transform: translate(-55px, -15px) rotate(5deg);
+}
