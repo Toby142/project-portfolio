@@ -1,0 +1,9 @@
+
+
+.terminal-connect {
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: #acaead;
+    color: black;
+    box-shadow: 10px 10px black;
+    padding: 10px;
+}
