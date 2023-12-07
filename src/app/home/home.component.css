@@ -103,3 +103,6 @@
   line-height: 50px;
 }
 
+.socials-link {
+  cursor: pointer;
+}
