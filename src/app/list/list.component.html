@@ -2,14 +2,16 @@
   <a routerLink="/home" class="text-3xl text-white bg-black p-3 w-16 text-center">
     <
   </a>
-  <input class="nav-title" placeholder="Q PROJECT" type="text" #projectInput (input)="filterProjects(projectInput.value)">
+  <input class="nav-title lg:hidden" placeholder="Q PROJECT" type="text" #projectInput (input)="filterProjects(projectInput.value)">
+  <input class="nav-title hidden lg:block" placeholder="SEARCH FOR A PROJECT" type="text" #projectInput (input)="filterProjects(projectInput.value)">
+
 </div>
 
 <div class="list">
-  <!-- list of the projects -->
+  <!-- list of the projects --> 
   <a *ngFor="let p of projects" class="list-project" [routerLink]="['/project/', p.id]">
-    <div class="text-xl ">{{p.title}}</div>
-    <div class="text-xs">{{p.description}}</div>
+    <div class="text-xl lg:text-2xl">{{p.title}}</div>
+    <div class="text-xs lg:text-base  ">{{p.description}}</div>
   </a>
 
   <!-- nothing found prompt -->

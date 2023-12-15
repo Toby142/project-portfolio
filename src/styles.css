@@ -10,3 +10,8 @@ body {
   font-family: 'Roboto Mono', monospace;
   color: #231F1C;
 }
+
+/* disable scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}

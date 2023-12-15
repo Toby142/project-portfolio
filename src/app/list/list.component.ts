@@ -5,6 +5,7 @@ interface Project {
   id: number;
   title: string;
   description: string;
+  about: string;
   images: Images[];
 }
 interface Images {

@@ -8,29 +8,27 @@
 
 /* meadia break lg */
 @media (min-width: 1024px) {
-  .header-container {
-    height: 50vh;
-  }
   .list-desktop {
     display: block;
   }
 }
 
 .header {
-  @apply lg:flex lg:w-1/2;
+  @apply lg:flex lg:w-full lg:flex-col lg:justify-center lg:items-center;
   background: #CCFF00;
 }
+
 .border {
   border: 1px solid #000;
 }
 
 .header-title {
-  @apply text-5xl font-bold p-2 pt-5;
+  @apply text-5xl font-bold p-2 pt-5 lg:pt-2 lg:p-5 lg:text-[120px];
   line-height: 110%;
 }
 
 .header-button {
-  @apply h-full m-4 px-10 py-3 font-bold text-xl;
+  @apply h-full m-4 px-10 py-3 font-bold text-xl lg:hidden;
   border-radius: 50%;
   cursor: pointer;
 /*  no text select */
@@ -38,21 +36,53 @@
 }
 
 .box {
-  @apply flex flex-col w-1/2 p-2 py-3 justify-between space-y-3;
+  @apply flex flex-col w-1/2 p-2 py-3 justify-between space-y-3 lg:w-full lg:h-full;
   color: white;
 }
 
 .box-aboutme {
   background: #231F1C;
   text-align: center;
-} .box-aboutme img {
+} 
+.box-aboutme img {
   @apply my-auto;
   width: 100px;
   height: 100px;
   margin-top: 15px;
   margin-bottom: 15px;
+  object-fit: cover;
 }
 
+/* media break for desktop */
+@media (min-width: 1024px) {
+  .box-aboutme {
+    transition: all 0.2s ease-in-out;
+  }
+  .box-aboutme img {
+    width: auto;
+    height: 150px;
+  }
+  .box-aboutme:hover {
+    z-index: 1;
+    box-shadow: 15px -15px red;
+    transform: translate(-15px, 15px);
+  }
+  .box-featured {
+    text-align: center;
+    padding: 25px;
+    transition: all 0.2s ease-in-out;
+  }
+  .box-featured:hover {
+    z-index: 1;
+    box-shadow: 15px -15px red;
+    transform: translate(-15px, 15px);
+  }
+}
+
+.box-aboutme_link {
+  @apply text-xl underline lg:text-3xl;
+  transition: all 0.2s ease-in-out;
+}
 
 .box-featured {
   background: #3233FF;
@@ -60,11 +90,11 @@
 
 .star {
   @apply flex text-3xl items-center;
-  color: #00000000;
+  color: gold;
 }
 
 .img-circle {
-  @apply items-center justify-center;
+  @apply items-center justify-center lg:hidden;
   position: absolute;
   height: 130px;
   width: 100px;

@@ -36,7 +36,7 @@ export class ProjectComponent {
   projects: Project[] = [];
 
   projectContentOpen = true;
-  projectPicturesOpen = false;
+  projectPicturesOpen = true;
 
   defaultImage = '/assets/images/placeholder-img.jpg';
 
@@ -66,13 +66,7 @@ export class ProjectComponent {
   }
   
   toggleOpen() {
-    if (this.projectContentOpen) {
-      this.projectContentOpen = false;
-      this.projectPicturesOpen = true;
-    } else if (this.projectPicturesOpen) {
-      this.projectContentOpen = true;
-      this.projectPicturesOpen = false;
-    }
+    return null;
   }
   
   logBoth() {

@@ -1,4 +1,7 @@
-
+.header {
+    @apply bg-secondary text-white text-5xl lg:text-6xl font-semibold p-5 text-center;
+    border-top: 2px solid white;	
+}
 
 .terminal-connect {
     font-family: "Lucida Console", Monaco, monospace;
@@ -6,4 +9,31 @@
     color: black;
     box-shadow: 10px 10px black;
     padding: 10px;
+}
+
+.social-box {
+    @apply shadow-lg;
+    padding: 20px;
+}
+.social-box img {
+    border-radius: 15px;
+    height: 100px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px red;
+
+}
+
+/* break for desktop */
+@media (min-width: 768px) {
+    .social-box {
+        width: 500px;
+    }
+
+    .social-box a {
+        @apply text-xl;
+    }
+
+    .social-box img {
+        height: 200px;
+    }
 }

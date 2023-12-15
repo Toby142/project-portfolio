@@ -2,7 +2,7 @@
 
 
 .header {
-    @apply bg-secondary text-white text-5xl font-semibold p-5 text-center;
+    @apply bg-secondary text-white text-5xl lg:text-6xl font-semibold p-5 text-center;
     border-top: 2px solid white;	
 }
 
@@ -21,7 +21,7 @@
 .block {
     @apply bg-primary w-2/3 p-2;
     height: 150px;
-    margin-bottom: 55px;
+    margin-bottom: 55px;;
 }
 
 
@@ -35,6 +35,7 @@
     margin: 0 auto;
     max-width: 1000px;
     padding: 20px;
+    width: 225px;
 }
 
 .polaroid {
@@ -141,4 +142,33 @@
 
 .polaroid-stack:hover .p-right:nth-child(3) {
     transform: translate(-55px, -15px) rotate(5deg);
+}
+
+/* break for desktop */
+@media (min-width: 768px) {
+    /* easy fix */
+    /* .content-container {
+        width: 100%;
+        align-items: center;
+    }
+
+    .section-img-left {
+        width: 50%;
+    }
+    .section-img-right {
+        width: 50%;
+    }
+    .section {
+        width: 50%;
+    } */
+
+    .block {
+        height: 225px;
+        padding-top: 50px;
+    }
+
+    .polaroid {
+        scale: 1.3;
+    }
+
 }

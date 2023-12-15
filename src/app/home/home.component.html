@@ -1,43 +1,45 @@
 
 <!--header-->
-<div class="header-container lg:flex lg:flex-row">
+<div class="header-container lg:flex lg:flex-row ">
   <div class="header" id="header">
-    <div class="h-4/5 header-title">CHECK OUT MY <br> PROJECT PORTFOLIO!</div>
+    <div class=" header-title">CHECK OUT MY <br> PROJECT PORTFOLIO!</div>
     <a routerLink="/list" class="flex justify-end">
       <div class="border header-button">
         List +
       </div>
     </a>
   </div>
-  
-  <!--filler blocks-->
-  <div class="flex flex-col">
-    <div class="flex flex-row">
-      <div class="box box-aboutme">
-        <div class="text-xl">This is me!</div>
-        <div class="w-full flex flex-row justify-between">
-          <div class="star color-red">✦</div>
-          <div class="flex flex-col">
-            <div class="img-circle"></div>
-            <img src="assets/profilePic.jpg" alt="picture of Toby the developer">
-          </div>
-          <div class="star color-red">✦</div>
+
+
+  <div class="flex flex-row lg:flex-col">
+
+    <div class="box box-aboutme">
+      <div class="text-xl lg:text-4xl">This is me!</div>
+      <div class="w-full flex flex-row justify-between">
+        <div class="star color-red">✦</div>
+        <div class="flex flex-col">
+          <div class="img-circle"></div>
+          <img src="assets/profile-img-2.jpg" alt="picture of Toby the developer">
         </div>
-        <a class="text-xl underline" routerLink="/about" >More about me</a>
+        <div class="star color-red">✦</div>
       </div>
-      <div class="box box-featured flex flex-col justify-between">
-        <div class="text-2xl">Have a look at my developer life.</div>
-        <a class="text-center text-xl underline" routerLink="/socials">
-          Contact me!
-        </a>
-      </div>
+      <a class="box-aboutme_link" routerLink="/about">More about me</a>
     </div>
-  </div>  
+
+    <div class="box box-featured flex flex-col justify-between">
+      <div class="text-2xl lg:text-4xl lg:mb-5 text-center">Have a look at my developer life.</div>
+      <a class="text-center text-xl underline lg:text-4xl" routerLink="/socials">
+        Contact me!
+      </a>
+    </div>
+
+  </div>
+
 </div>
 
 
 <!--info-->
-  <div class="w-full text-xs mx-1 my-4">
+  <div class="w-full text-xs mx-1 my-4 lg:text-sm lg:my-6">
     This website is to showcase all my projects this is website is about my work, see it as a blog for projects. 
    
     <div class="font-bold">This is how it's made -> <a class="underline text-secondary" routerLink="/project/5">Portfolio Project</a></div>

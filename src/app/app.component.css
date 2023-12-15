@@ -2,18 +2,3 @@ main {
   margin: 16px;
   position: relative;
 }
-
-.desktop-view {
-  @apply text-center p-5;
-  display: none;
-}
-
-/* make a break for desktop */
-@media (min-width: 768px) {
-  main {
-    display: none;
-  }
-  .desktop-view {
-    display: block;
-  }
-}

@@ -8,3 +8,33 @@ img {
     object-fit: cover;
     box-shadow: -10px 10px red;
 }
+.red-underline {
+    border-bottom: 5px solid red;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.card {
+    width: 350px;
+    height: 150px;
+    border-bottom: 3px dotted gray;
+    padding: 25px;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover {
+    border-bottom: 3px dotted red;
+    /* make ti go up a bit */
+    transform: translateY(-5px);
+}

@@ -1,13 +1,44 @@
 <!-- socials.component.html -->
 
-<div class="bg-gray-700 text-white p-4 shadow-md">
-    <div class="border border-white p-2">
-        <p class="text-white">C:\> Socials</p>
-        <p class="text-white">─────────────────────</p>
-        <a class="text-white" href="https://github.com/Toby142" target="_blank">[1] Github/Toby142</a><br>
-        <a class="text-white" href="https://www.linkedin.com/in/tobias-van-de-ven-487998222/" target="_blank">[2] LinkedIn</a><br>
-        <a class="text-white" href="mailto:tobiasvandeven142@gmail.com" target="_blank">[3] tobiasvandeven142@gmail.com</a>
-        <p class="text-white">─────────────────────</p>
-        <p class="text-gray-500">Type "exit" to close this window.</p>
+<div class="w-full bg-black text-white text-xl px-2 lg:text-2xl lg:px-4" routerLink="/home">BACK</div>
+<div class="header">
+    MY SOCIALS
+</div>
+
+<!-- <div class="bg-gray-900 text-white p-3 mt-5 shadow-lg">
+    <div class="border border-white p-2 text-sm">
+        <p class="text-white">C:\> Message-Connection</p>
+        <p class="text-white">C:\> Click to start connecting...</p>
+        <p class="text-gray-400 text-xs pt-1">Send a quick email by clicking this box</p>
+    </div>
+</div> -->
+
+<div class="flex flex-col lg:flex-col-reverse items-center">
+    <div class="flex flex-col space-y-8 m-5 lg:w-full lg:items-center">
+        <div class="social-box bg-primary  text-center flex flex-col items-center">
+            <img src="/assets/icons/gmail-logo.jpg" alt="gmail logo">
+            <a class=" underline" href="mailto:tobiasvandeven142@gmail.com">tobiasvandeven142@gmail.com</a>
+        </div>
+        
+        <div class="social-box bg-secondary text-white text-center flex flex-col items-center">
+            <img src="/assets/icons/github-logo.png" alt="github logo">
+            <a class="underline" href="https://github.com/Toby142" target="_blank">GitHub/Toby142</a>
+        </div>
+        
+        <div class="social-box bg-black text-white text-center flex flex-col items-center">
+            <img src="/assets/icons/Linkedin-logo.jpg" alt="linkedin logo">
+            <a class=" underline" href="https://www.linkedin.com/in/tobias-van-de-ven-487998222/">Tobias van de Ven</a>
+        </div>
+    </div>
+    
+    
+    
+    <div class="bg-gray-900 text-white p-3 shadow-xl lg:m-8 lg:w-[600px]">
+        <div class="border border-white p-2 text-sm">
+            <p class="text-white">C:\> Message-Connection</p>
+            <p class="text-white">C:\> Click to start connecting...</p>
+            <p class="text-gray-400 text-xs pt-1">Send a quick email by clicking this box</p>
+        </div>
     </div>
 </div>
+

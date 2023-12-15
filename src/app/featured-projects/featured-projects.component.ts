@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 interface Project {
@@ -21,8 +21,12 @@ export class FeaturedProjectsComponent {
 
   project: Project[] = []
 
+  @Input() hideTitle: boolean = false;
+
   constructor(private http: HttpClient) {
   }
+
+  // @Input() hideTitle: boolean = false;
 
   ngOnInit(): void {
     this.http.get<Project[]>('/assets/projectList.json').subscribe(data => {

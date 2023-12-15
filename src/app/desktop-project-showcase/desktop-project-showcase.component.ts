@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 interface Project {
   id: number;
   title: string;
+  description: string;
   images: Images[];
 }
 

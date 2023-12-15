@@ -1,16 +1,18 @@
-<div class="text-2xl font-bold">FEATURED PROJECTS</div>
-<div class="flex flex-col">
+<!-- your-component.component.html -->
+
+<div class="text-2xl font-bold" *ngIf="!hideTitle">FEATURED PROJECTS</div>
+<div class="flex flex-col lg:flex-row lg:space-x-10">
     <div class="image-background bg-primary" routerLink="/project/{{this.project[0].id}}" *ngIf="this.project && this.project[0] && this.project[0].images && this.project[0].images[0]">
         <img src="{{this.project[0].images[0].url}}">       
-        <div class="mt-4 text-2xl font-bold text-center">{{this.project[0].title}}</div>
+        <div class="mt-4 lg:mt-6 text-2xl font-bold text-center underline-animation">{{this.project[0].title}}</div>
     </div>
     <div class="image-background bg-secondary" routerLink="/project/{{this.project[1].id}}" *ngIf="this.project && this.project[1] && this.project[1].images && this.project[1].images[0]">
         <img src="{{this.project[1].images[0].url}}">
-        <div class="mt-4 text-2xl font-bold text-center text-white">{{this.project[1].title}}</div>
+        <div class="mt-4 lg:mt-6 text-2xl font-bold text-center text-white underline-animation">{{this.project[1].title}}</div>
     </div>
     <div class="image-background bg-black" routerLink="/project/{{this.project[2].id}}" *ngIf="this.project && this.project[2] && this.project[2].images && this.project[2].images[0]">
         <img src="{{this.project[2].images[0].url}}">
-        <div class="mt-4 text-2xl font-bold text-center text-white">{{this.project[2].title}}</div>
+        <div class="mt-4 lg:mt-6 text-2xl  font-bold text-center text-white underline-animation">{{this.project[2].title}}</div>
     </div>
 </div>
 

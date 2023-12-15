@@ -48,3 +48,24 @@
     object-fit: cover;
     border: 1px dashed white;
 }
+
+/* break for desktop */
+@media (min-width: 768px) {
+    .title-button-content {
+        @apply w-full;
+    }
+
+    .project-content {
+        height: 100%;  
+        overflow-y: scroll;
+        border-bottom: none;
+    }
+    .pictures-content {
+        height: 100%;  
+        overflow-y: scroll;
+    }
+
+    .container-divving {
+        height: 85vh;
+    }
+}
