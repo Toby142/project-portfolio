@@ -1,0 +1,21 @@
+<div class="skills-bar-wrapper"
+     (mouseenter)="onMouseEnter()"
+     (mouseleave)="onMouseLeave()">
+
+  <!-- container met overflow hidden -->
+  <div class="skills-viewport">
+    <!-- ticker: dubbele lijst zodat CSS/JS makkelijk infinite kan scrollen -->
+    <div
+      #ticker
+      class="skills-ticker"
+      (touchstart)="onTouchStart($event)"
+      (touchmove)="onTouchMove($event)"
+      (touchend)="onTouchEnd()"
+      (touchcancel)="onTouchEnd()"
+    >
+      <span routerLink="/skills" class="skill-item" *ngFor="let s of tickerList">
+        {{ s }}
+      </span>
+    </div>
+  </div>
+</div>

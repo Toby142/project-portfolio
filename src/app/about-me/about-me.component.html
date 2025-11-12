@@ -1,74 +1,97 @@
 <div class="w-full lg:w-1/3">
-    <div class="back-button" [routerLink]="['/home']">BACK</div>
+    <div class="back-button" [routerLink]="['/home']">TERUG</div>
 </div>
 <div class="header">
     ABOUT ME
 </div>
-<div class="flex items-center flex-col lg:flex-row lg:justify-center  lg:p-5">
-    <!-- <img class="profile-img" src="../../assets/profile-img.png"> -->
-    <div class="font-bold mt-4 text-2xl lg:text-4xl lg:p-3">Who Am I?</div>
-    <!-- <img class="hidden profile-img lg:block" src="../../assets/profile-img-2.jpg"> -->
-</div>
 
 <div class="flex flex-col content-container items-center">
     <div class="section lg:w-1/2">
-        <p>Hey, I’m <span class="font-bold">Tobias van de Ven</span>, a <span class="font-bold">{{age}}-year-old software developer</span> from the Netherlands. My passion lies in <span class="font-bold">front-end development</span>, crafting intuitive and visually engaging web experiences. I thrive on <span class="font-bold">problem-solving, optimization, and design</span>, always seeking ways to push the boundaries of what's possible.</p>
-    </div>
-
-    <div class="section lg:w-1/2 mt-6">
-        <span class="font-bold text-xl">What Drives Me?</span>
-        <ul class="list-disc pl-5 mt-2">
-            <li><span class="font-bold">Tech & Development:</span> I’m obsessed with learning new technologies, frameworks, and best practices to stay ahead in the ever-evolving world of web development.</li>
-            <li><span class="font-bold">Hands-On Engineering:</span> Whether it’s coding or cars, I love breaking things down and figuring out how they work. My Honda Civic is my ongoing project, where I install new parts and fine-tune every detail.</li>
-        </ul>
-    </div>
-
-    <div class="section lg:w-1/2 mt-6">
-        <span class="font-bold text-xl">Beyond the Screen</span>
-        <ul class="list-disc pl-5 mt-2">
-            <li><span class="font-bold">Hitting the slopes:</span> Skiing in France is a must every winter.</li>
-            <li><span class="font-bold">Music festivals:</span> Because what’s life without good vibes?</li>
-            <li><span class="font-bold">Spending time with my cat, LEX:</span> The real boss at home.</li>
-        </ul>
+        <p>Ik ben <b>Tobias van de Ven</b>, een {{age}}-jaar oud en afkomstig uit Nederland. <br> 
+           Ik ben iemand die niet stil kan zitten als er iets opgelost moet worden - ik zie alles als een uitdaging om te verbeteren, te begrijpen en te perfectioneren.
+           Of het nu gaat om complexe code, een technisch probleem of een ontwerp dat nét niet helemaal klopt: ik wil weten <i>waarom</i> iets werkt zoals het werkt, en hoe het beter kan.
+        </p>
     </div>
 
     <div class="section-img-right lg:w-1/2 mt-6">
         <div class="block">
             <div class="polaroid-stack flex">
                 <div class="polaroid p-right">
-                    <img src="/assets/about-me/holliday.jpg" alt="Touring in Switzerland">
-                    <div class="caption">Touring in Switzerland</div>
+                    <img src="/assets/about-me/italie.jpg" alt="Skiing in France">
+                    <div class="caption">Italie 2025</div>
                 </div>
                 <div class="polaroid p-right">
-                    <img src="/assets/about-me/profile-picture.jpg" alt="This is me!">
-                    <div class="caption">This is me!</div>
+                    <img src="/assets/about-me/zwitserland.jpg" alt="Touring in Switzerland">
+                    <div class="caption">Zwitserland 2025</div>
                 </div>
                 <div class="polaroid p-right">
-                    <img src="/assets/about-me/skiing.jpg" alt="Skiing in France">
-                    <div class="caption">Skiing in France</div>
+                    <img src="/assets/about-me/holliday.jpg" alt="Skiing in France">
+                    <div class="caption">Zwitserland 2023</div>
                 </div>
+                
+                <div class="polaroid p-right">
+                    <img src="/assets/about-me/skiing.jpg" alt="This is me!">
+                    <div class="caption">Frakrijk 2024</div>
+                </div>
+                <div class="polaroid p-right">
+                    <img src="/assets/about-me/sardinie.jpg" alt="Skiing in France">
+                    <div class="caption">Sardinie 2025</div>
+                </div>
+                
+                
             </div>
         </div>
         <div class="text-[9px] h-full px-2 lg:hidden">← click 'n scroll</div>
+    </div>
+
+    <div class="section lg:w-1/2">
+        <h2 class="font-bold text-xl">Hoe ik werk</h2>
+        <p>
+            Ik werk sterk <b>probleemoplossend</b>. Voordat ik begin, wil ik eerst precies begrijpen <i>wat het probleem is en waar de kern ligt</i>. Vanuit dat inzicht maak ik schetsen of schrijf ik ideeën uit om een duidelijk beeld te krijgen van wat ik ga maken.
+            Daarna werk ik <b>gestructureerd en doelgericht</b>, maar ik geef toe - ik vind het moeilijk om me maar op één ding tegelijk te focussen. Ik wil juist met meerdere taken tegelijk bezig zijn, omdat ik dan creatief kan blijven schakelen tussen ideeën en oplossingen.
+        </p>
+    </div>
+
+    <div class="section lg:w-1/2">
+        <h2 class="font-bold text-xl">Samenwerking</h2>
+        <p>
+            Hoewel ik het prettig vind om <b>zelfstandig in rust te werken</b>, heb ik ook echt behoefte aan <b>korte brainstormmomenten</b> met anderen. Dat "pingpongen" van ideeën, het samen perfectioneren van een oplossing - dat vind ik één van de leukste en belangrijkste dingen aan samenwerken.
+            Vaak neem ik vanzelf de <b>leiding</b> in een project, niet omdat ik dat moet, maar omdat ik het niet kan laten om anderen te helpen en overzicht te houden. Ik let goed op wat iedereen kan en wil, geef iedereen <b>gelijke kansen en inspraak</b>, en vind dat een team pas echt sterk is als iedereen zich gehorod voelt.
+        </p>
+    </div>
+
+    <div class="section lg:w-1/2">
+        <h2 class="font-bold text-xl">Wat ik belangrijk vind</h2>
+        <p>
+            Wat ik maak, moet <b>goed doordacht</b> zijn - ik wil het kunnen uitleggen, begrijpen en er volledig achter staan. Ik geloof dat kwaliteit niet zit in snelheid, maar in bewustheid en aandacht voor detail.
+            Ik streef altijd naar het <b>beste restulaat</b>, iets waar ik zelf trots op kan zijn en dat anderen ook waarderen. Dit betekent dat ik niet bang ben om terug te gaan naar de tekentafel als iets niet helemaal klopt.
+        </p>
+    </div>
+
+    <div class="section lg:w-1/2">
+        <h2 class="font-bold text-xl">Toekomst en ambietie</h2>
+        <p>
+            Ik ben iemand die <b>altijd wil blijven leren</b>. Ik geloof dat je elke dag iets nieuws leert, vaak zonder dat je het doorhebt. In de toekomst wil ik verder studeren, nieuwe richtingen ontdekken en mijn verschillende interesses combineren. <br>
+            Naast tech vind ik andere dingen als <b>engineering, prototyping, cieviele techniek en architectuur</b>  enorm interessant. Ik houd van bouwen - of dat nu digitaal of fysiek is.
+        </p>
     </div>
 
     <div class="section-img-left flex flex-row lg:w-1/2 mt-6">
         <div class="block">
             <div class="polaroid-stack" onmouseover="alignPolaroids()">
                 <div class="polaroid p-left">
-                    <img src="/assets/about-me/cat.jpg" alt="My cat LEX">
-                    <div class="caption">My cat LEX</div>
+                    <img src="/assets/about-me/porsche.jpg" alt="My cat LEX">
+                    <div class="caption">Porsche Boxster S</div>
                 </div>
                 <div class="polaroid p-left">
-                    <img src="/assets/about-me/hona-civic-4.jpeg" alt="Civic Owner">
-                    <div class="caption">Civic Owner</div>
+                    <img src="/assets/about-me/jeep.jpg" alt="Civic Owner">
+                    <div class="caption">Jeep Grand Wagoneer</div>
                 </div>
                 <div class="polaroid p-left">
-                    <img src="/assets/about-me/festival.jpg" alt="Festival with friends">
-                    <div class="caption">Festival with friends</div>
+                    <img src="/assets/about-me/honda.jpg" alt="Festival with friends">
+                    <div class="caption">Honda Civic</div>
                 </div>
             </div>
         </div>
         <div class="text-[9px] h-full px-2 lg:hidden">click 'n scroll →</div>
-    </div>
 </div>

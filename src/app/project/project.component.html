@@ -1,5 +1,5 @@
 <div class="w-full lg:w-1/2">
-  <div class="back-button" [routerLink]="['/home']">BACK</div>
+  <div class="back-button" [routerLink]="['/home']">TERUG</div>
 </div>
 
 <div class="lg:flex lg:flex-row container-divving">
@@ -12,12 +12,12 @@
       </div>
   
       <div class="section" *ngIf="project.about">
-        <div class="text-2xl font-semibold">ABOUT</div>
+        <div class="text-2xl font-semibold">OVER HET PROJECT</div>
         <div>{{project.about}}</div>
       </div>
   
       <div class="section" *ngIf="project.used">
-        <div class="text-2xl font-semibold">USED</div>
+        <div class="text-2xl font-semibold">GEBRUIKTE TOOLS, SKILLS & SOFTWARE</div>
         <ul class="used-list">
           <li *ngFor="let item of project.used">
             {{ item }}
@@ -26,12 +26,12 @@
       </div>
   
       <div class="section">
-        <div class="text-2xl font-semibold">OTHER</div>
+        <div class="text-2xl font-semibold">OVERIG INFORMATIE</div>
         <div>{{project.other}}</div>
       </div>
   
       <div class="section" *ngIf="project.links">
-        <div class="text-2xl font-semibold">LINKS</div>
+        <div class="text-2xl font-semibold">RELEVANTE LINKS</div>
         <ul class="links-list">
           <li *ngFor="let link of project.links">
             <a class="underline text-secondary" [href]="link.url" target="_blank">{{ link.name }}</a>
@@ -42,7 +42,7 @@
   </div>
   
   <div class="pictures-container lg:w-1/2" id="pictures-container">
-    <div class="title-button-pictures" (click)="toggleOpen()">PICTURES</div>
+    <div class="title-button-pictures" (click)="toggleOpen()">FOTOS</div>
     <div class="pictures-content" *ngIf="projectPicturesOpen && project">
       <div *ngFor="let image of project.images" class="image-container">
         <!-- <img class="img" [src]="image.url" [alt]="image.name" /> -->
@@ -53,7 +53,7 @@
         <div *ngIf="image.description">{{image.description}}</div>
       </div>
   
-      <div *ngIf="!project.images">No pictures for this project :/</div>
+      <div *ngIf="!project.images">Geen foto's voor dit project :|</div>
     </div>
   </div>
 </div>

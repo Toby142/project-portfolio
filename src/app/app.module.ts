@@ -15,6 +15,9 @@ import { DesktopProjectShowcaseComponent } from './desktop-project-showcase/desk
 import { AboutMeComponent } from './about-me/about-me.component';
 import { SocialsComponent } from './socials/socials.component';
 import { SkillsComponent } from './skills/skills.component';
+import { AboutMeSmallComponent } from './about-me-small/about-me-small.component';
+import { SkillsSmallComponent } from './skills-small/skills-small.component';
+import { SkillsBarComponent } from './skills-bar/skills-bar.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { SkillsComponent } from './skills/skills.component';
     DesktopProjectShowcaseComponent,
     AboutMeComponent,
     SocialsComponent,
-    SkillsComponent
+    SkillsComponent,
+    AboutMeSmallComponent,
+    SkillsSmallComponent,
+    SkillsBarComponent
   ],
   imports: [
     BrowserModule,

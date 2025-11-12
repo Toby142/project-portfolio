@@ -1,8 +1,9 @@
 
 <!--header-->
 <div class="header-container lg:flex lg:flex-row ">
+  
   <div class="header" id="header">
-    <div class=" header-title">CHECK OUT MY <br> PROJECT PORTFOLIO!</div>
+    <div class=" header-title">IK BEN<br> TOBIAS VAN DE VEN</div>
     <a routerLink="/list" class="flex justify-end">
       <div class="border header-button">
         List +
@@ -12,49 +13,53 @@
 
 
   <div class="flex flex-row lg:flex-col">
-
     <div class="box box-aboutme">
-      <div class="text-xl lg:text-4xl">This is me!</div>
+      <div class="text-xl lg:text-4xl">Dit ben ik!</div>
       <div class="w-full flex flex-row justify-between">
         <div class="star color-red">✦</div>
         <div class="flex flex-col">
           <div class="img-circle"></div>
-          <img src="../../assets/profile-img-2.jpg" alt="picture of Toby the developer">
+          <img src="../../assets/profiel-foto-2025-2.jpeg" alt="picture of Toby the developer">
         </div>
         <div class="star color-red">✦</div>
       </div>
-      <a class="box-aboutme_link" routerLink="/about">More about me</a>
+      <a class="box-aboutme_link" routerLink="/about">Meer over mij</a>
     </div>
 
     <div class="box box-featured flex flex-col justify-between">
-      <div class="text-2xl lg:text-4xl lg:mb-5 text-center">Have a look at my developer life.</div>
-      <a class="text-center text-xl underline lg:text-4xl" routerLink="/socials">
+      <div class="text-2xl lg:text-4xl lg:mb-5 text-center">Software Developer <br> Creating Digital Solutions & Innovations</div>
+      <!-- <a class="text-center text-xl underline lg:text-4xl" routerLink="/socials">
         Contact me!
-      </a>
+      </a> -->
     </div>
 
   </div>
 
 </div>
 
+<app-skills-bar></app-skills-bar>
+
+
 
 <!--info-->
   <div class="w-full text-xs mx-1 my-4 lg:text-sm lg:my-6 relative">
-    This website is to showcase all my projects this is website is about my work, see it as a blog for projects. 
+    <!-- translate to nl: This website is to showcase all my projects this is website is about my work, see it as a blog for projects.  -->
+    Deze website is om al mijn projecten te tonen, zie het als een blog voor mijn meest interessanten projecten.
    
-    <div class="font-bold">This is how it's made -> <a class="underline text-secondary" routerLink="/project/5">Portfolio Project</a></div>
+    <div class="font-bold">Benieuwd hoe deze website in elkaar zit -> <a class="underline text-secondary" routerLink="/project/10">Project Portfolio</a></div>
 
-    <div class="paper-link-container hidden lg:block" routerLink="/skills">
+    <a class="paper-link-container hidden lg:block" href="https://onlinecv.tobiasvandeven.nl" target="_blank">
       <img class="paper-link" src="../../assets/papier.png" alt="">
-      <a class="paper-link_text" routerLink="/skills">Check out my Skills</a>  
+      <a class="paper-link_text">Bekijk mijn online CV</a>  
+    </a>
+
+    <div class="mobile-skills-link lg:hidden " href="https://onlinecv.tobiasvandeven.nl" target="_blank"  >
+      Bekijk mijn online CV
     </div>
-
-    <div class="mobile-skills-link lg:hidden " routerLink="/skills">
-      check out my skills
-    </div>
-
-
   </div>
+
+
+  <!-- <app-about-me-small></app-about-me-small> -->
 
 
 <!--list mobile-->

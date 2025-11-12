@@ -1,0 +1,79 @@
+:host {
+  display: block;
+  width: 100%;
+}
+
+/* wrapper en viewport */
+.skills-bar-wrapper {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.skills-viewport {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 0;
+  box-sizing: border-box;
+  /* optioneel: achtergrond en subtle border, pas aan naar portfolio-stijl */
+  background: transparent;
+}
+
+/* de ticker zelf */
+.skills-ticker {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  transform: translateX(0);
+  /* transition wordt via TS inline aangestuurd, maar houd default als fallback */
+  transition: transform 600ms ease;
+}
+
+/* individuele items */
+.skill-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto; /* voorkomen dat items krimpen */
+  padding: 0 18px;
+  margin: 0;
+  font-weight: 600;
+  opacity: 0.95;
+  user-select: none;
+  cursor: pointer;
+  /* optioneel: border/box voor visuele scheiding */
+  /* border-right: 1px solid rgba(0,0,0,0.06); */
+}
+
+/* -------------------------------- */
+/* Alleen font-size verandert per device */
+/* -------------------------------- */
+@media (min-width: 1200px) {
+  .skill-item { font-size: 1.6rem; padding: 0 22px; }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .skill-item { font-size: 1.05rem; padding: 0 18px; }
+}
+
+@media (max-width: 767px) {
+  .skill-item { font-size: 0.95rem; padding: 0 14px; }
+}
+
+/* optionele visuele polish: fade at edges (gebruik pseudo-elementen op container) */
+.skills-viewport {
+  position: relative;
+}
+
+.skills-viewport::before,
+.skills-viewport::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 60px; /* fade width */
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Als je een donkere achtergrond hebt, pas de fade kleuren aan */

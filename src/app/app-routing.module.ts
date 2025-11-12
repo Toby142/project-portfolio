@@ -17,7 +17,7 @@ const routes: Routes = [
   { path: 'project/:id', component: ProjectComponent },
   { path: 'list', component: ListComponent },
   { path: 'socials', component: SocialsComponent },
-  { path: 'skills', component: SkillsComponent }, 
+  { path: 'skills', component: SkillsComponent },
   { path: '**', redirectTo: '/home' }
 ];
 

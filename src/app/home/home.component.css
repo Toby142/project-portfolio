@@ -55,14 +55,23 @@
   object-fit: cover;
 }
 
+
+
+
 /* media break for desktop */
 @media (min-width: 1024px) {
+
+  .header-title {
+    font-size: clamp(2rem, 10vw, 8rem);
+      /* font-stretch: expanded; */
+  }
+
   .box-aboutme {
     transition: all 0.2s ease-in-out;
   }
   .box-aboutme img {
     width: auto;
-    height: 150px;
+    height: 250px;
   }
   .box-aboutme:hover {
     z-index: 1;
@@ -142,7 +151,7 @@
 .paper-link-container {
   position: absolute;
   height: 0;
-  right: -40px;
+  right: -30px;
   top: -1px;
   transform: scale(1.1) scaleX(-1) rotate(-10deg) translate(10px, 0);
   transition: all 0.2s ease-in-out;

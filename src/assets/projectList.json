@@ -1,19 +1,251 @@
 [
   {
     "id": 1,
-    "tag": "mood-tunes",
-    "title": "MoodTunes",
-    "description": "An app that analyzes facial expressions to generate personalized Spotify playlists based on mood.",
-    "about": "MoodTunes is an innovative application utilizing the Spotify API and the Face API to create tailored playlists according to users' emotions and musical preferences.",
+    "tag": "webshop-development-leadership",
+    "title": "Webshop Development Leadership",
+    "description": "Leidinggeven aan webshopwikkeling door een freelancer te begeleiden en kwaliteit te waarborgen via duidelijke richtlijnen en communicatie.",
+    "about": "Tijdens mijn afstudeerstage had ik al uitgebreide analyses gemaakt en een compleet webshop ontwerp uitgewerkt. Omdat ik mijn tijd efficiënter wilde inzetten voor zowel het stagewerk als mijn examens, heb ik ervoor gekozen om de ontwikkeling van de webshop uit te besteden aan een freelancer. Om ervoor te zorgen dat de webshop precies volgens het plan werd gebouwd, schrijf ik een Guidelines & Expectations-document in duidelijk en correct Engels. Vervolgens plaatste ik een job post op Upwork, voerde gesprekken met geïnteresseerde freelancers en maakte op basis van die gesprekken en hun eerdere projecten een weloverwogen keuze. Tijdens het ontwikkelproces begeleidde ik de freelancer actief, beantwoordde vragen en bewaakte de voorgang om de kwaliteit te garanderen. Dankzij deze aanpak werd de webshop keurig opgeleverd volgens zowel mijn technische verwachtingen als de wensen van de klant.",
     "used": [
+      "Shopify",
+      "Upwork (freelancer platform)",
+      "Projectcoördinatie",
+      "Engels (communicatie)"
+    ],
+    "other": "Dit project vond ik extra leuk omdat ik voor het eerst iemand anders aanstuurde in plaats van alles zelf te doen. Ik merkte dat ik sterk ben in samenwerken, duidelijke uitleg geven en het organiseren van een project. Het was een uitdagend maar passend project binnen mijn skillset.",
+    "images": [
+      {
+        "url": "/assets/images/kcperformance-webshop-leadership/tumb.png"
+      },
+      {
+        "url": "/assets/images/kcperformance-webshop-leadership/desktop.jpg",
+        "name": "KCPerformance Webshop Desktop"
+      },
+      {
+        "url": "/assets/images/kcperformance-webshop-leadership/mobile.jpg",
+        "name": "KCPerformance Webshop Mobile"
+      }        
+    ],
+    "links": [
+      {
+        "name": "Guidelines & Expectations Document",
+        "url": "/assets/documents/kcperformance-webshop-leadership/Guidelines_Expectations_KCPerformance.pdf"
+      },
+      {
+        "name": "KCPerformance Webshop",
+        "url": "https://shop.kcperformance.eu/"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Digital Proof Hackathon Winner",
+    "description": "Winnen van een hackathon door het ontwikkelen van een device checker die hardware- en softwarecompatibiliteit controleert voor app-downloads.",
+    "about": "Tijdens de Digital Proof Hackathon kregen we de uitdaging om een klant te helpen met een echt probleem. Het team met de beste oplossing zou uiteindelijk de hackathon winnen. Het probleem was dat de app van de klant op sommige apparaten niet goed werkte. Ons idee was om een device checker te ontwikkelen die het apparaat scant en controleert welke hardware en software er wordt gebruikt. Omdat sommige appraten foutieve hardware en software-informatie teruggeven, voegden we een extra controle toe via een device database. Deze check wordt snel uitgevoerd zodra een gebruiker op de downloadklop van de website klikt, zodat er geen merkbare vertraging optreedt. Als het apparaat in orde is, wordt de gebruiker direct doorgestuurd naar de downloadpagina. Wanneer er problemen worden gevonden, wordt de gebruiker naar een speciale pagina geleid met instructies om het probleem op te lossen. Hoewel deze oplossing specifiek voor een klant bedacht was, ontwierpen we het als een tool zodat het ook interessant en gebruikt kan worden door andere bedrijven.",
+    "used": [
+      "HTML, CSS en JavaScript",
+      "MongoDB",
+      "Conceptontwikkeling voor apps",
+      "Presenteren van een app-concept"
+    ],
+    "other": "Tijdens mijn derde leerjaar vonden mijn vrienden en ik de standaard schoolopdrachten vrij saai en niet uitdagend. Toen onze docent vroeg wie mee wilde doen aan de hackathon, was niemand geïnteresseerd, tot wij besloten het mee te doen. We maakten een deal met de docent: als we zouden winnen, hoefden we de opdrachten van die periode niet te maken. En als we niet wonnen, moesten we alsnog als inhalen. Deze extra motivatie maakte het project nog leuker en uitdagender.",
+    "images": [
+      {
+        "url": "/assets/images/digital-proof-hackathon/hackathon.png"
+      },
+      {
+        "name": "Certificaat van deelname",
+        "url": "/assets/images/digital-proof-hackathon/certificate.png"
+      },
+      {
+        "name": "Groepsfoto met prijs",
+        "url": "/assets/images/digital-proof-hackathon/groepsfoto.jpg"
+      }
+    ],
+    "links": [
+      {
+        "name": "Link name",
+        "url": "https://link-to-project.com"
+      },
+      {
+        "name": "Document name",
+        "url": "https://link-to-project.com"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Graduation Internship Report",
+    "description": "Afstudeerverslag over mijn stage bij KCPerformance, waarin ik mijn rol, ontwikkeling en projecten bespreek.",
+    "about": "In dit document vertel ik over mijn afstudeerjaar van de opleiding Software en Web Development aan Yonder (voorheen ROC Tilburg). Dit jaar heb ik afgesloten met een afstudeerstage bij KCPerformance, een bedrijf dat zich richt op autotuning. Deze stage vormde het laatste onderdeel van mijn opleiding, waarmee ik mijn studie officieel zal afronden. In dit verslag lees je waar ik stage heb gelopen, welke rol binnen het bedrijf ik had en hoe ik mij als software developer heb ontwikkeld. Ik bespreek welke examens ik heb afgerond, aan welke projecten ik heb gewerkt en hoe mijn werkwijze eruitzag, zowel algemeen als technisch. Hierbij besteed ik aandacht aan de tools die ik gebruikte, de manier waarop ik informatie verwerkte en hoe ik zelfstandig keuzes heb gemaakt in de uitvoering van mijn werk.",
+    "other": "Het doel van dit document is om inzicht te geven in mijn ontwikkeling als developer en te laten zien hoe ik functioneer binnen een bedrijf. Het verslag is bedoeld voor toekomstige werkgevers, docenten of anderen die willen weten wat ik tijdens mijn stage heb bereikt.",
+    "images": [
+      {
+        "url": "/assets/images/graduation-internship-report/tumb3.png"
+      }
+    ],
+    "links": [
+      {
+        "name": "Stageverslag KCPerformance PDF",
+        "url": "/assets/documents/stageverslag/Stageverslag_KCPerformance_Tobias_van_de_Ven.pdf"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "tag": "webshop-analysis-optimization",
+    "title": "Webshop Analysis & Optimization",
+    "description": "Ontwerpen van een nieuwe webshop na analyse van de oude webshop en concurrentieonderzoek.",
+    "about": "Tijdens mijn afstudeerstage kreeg ik de opdracht om een nieuwe webshop te ontwerpen, omdat de bestaande webshop verschillende problemen had. In plaats van direct te beginnen met het ontwerp, koos ik er bewust voor om eerst een aantal voorbereidende stappen te zetten. Ik startte met een grondige analyse van de oude webshop, waarbij ik alle knelpunten en verbeterpunten in kaart bracht. Vervolgens onderzocht ik diverse concurrerende webshops om te ontdekken wat zij goed aanpakten en waar verbeteringen mogelijk waren. Deze inzichten gebruikte ik om de belangrijkste verbeterpunten te formuleren en te vertalen naar een mooi, gebruiksvriendelijk en aantrekkelijk nieuw ontwerp.",
+    "used": [
+      "Webshop analyse",
+      "Concurrentieonderzoek",
+      "UX/UI ontwerp",
+      "Figma"
+    ],
+    "other": "Dit project was erg interessant, omdat ik leerde hoe waardevol een grondige voorbereiding is. Door eerst uitgebreid te analyseren en te onderzoeken, kon ik zorgen dat alle verbeterpunten op een doordachte manier werden verwerkt in het nieuwe webshopontwerp.",
+    "images": [
+      {
+        "url": "/assets/images/kcperformance_webshop_design/kcperformance_1.png"
+      },
+      {
+        "url": "/assets/images/kcperformance_webshop_design/kcperformance_2.png"
+      },
+      {
+        "url": "/assets/images/kcperformance_webshop_design/kcperformance_3.png"
+      }
+    ],
+    "links": [
+      {
+        "name": "Onderzoek en Analyse Rapport KCPerformance Webshop",
+        "url": "/assets/documents/kcperformance-onderzoek-analyse/onderzoek-analyse-rapport.pdf"
+      },
+      {
+        "name": "Vernieuwde KCPerormance Webshop",
+        "url": "https://shop.kcperformance.eu/"
+      }
+    ]
+  },
+  
+  
+  {
+    "id": 5,
+    "tag": "roller-gate-automation",
+    "title": "Roller Gate Automation",
+    "description": "Automatiseren van een rolpoort met een Raspberry Pi Pico W en MicroPython, zodat deze via een webapp bediend kan worden.",
+    "about": "Ik wilde tijdens mijn afstudeerstage zoveel mogelijk nieuwe dingen leren, vooral op gebieden waar ik software development kon toepassen in de echte wereld. Ik besloot daarom om iets te doen met elektrotechniek – iets tastbaars dat meer was dan alleen code op een scherm. Bij KCPerformance stond een rolpoort die normaal werd bediend met meerdere afstandsbedieningen. Deze gingen echter vaak kapot of raakten kwijt. Ik wilde daarvoor een moderne en betrouwbare oplossing maken waarmee de poort via een telefoon of computer bediend kon worden. Ik bouwde het systeem met een Raspberry Pi Pico W, gekoppeld aan een relais-module die knoppen van de bedieningskast simuleert door verbinding rond te maken. De Pico W host een kleine webapplicatie, geschreven in MicroPython, die draait op het lokale wifi-netwerk. Alleen medewerkers hebben toegang, waardoor het systeem ook veilig blijft.",
+    "used": [
+      "Raspberry Pi Pico W",
+      "MicroPython"
+    ],
+    "other": "Dit project vond ik leuk om te doen, omdat het mijn eerste stap was in de wereld van hardware en automatisering. Het gaf me een nieuwe perspectief hoe software development kan worden toegepast in fysieke systemen. Sinds dit project ben ik vaker bezig met projecten die echt iets doen in de praktijk.",
+    "images": [
+      {
+        "url": "/assets/images/roller-gate-automation/kastje-open.jpg"
+      },
+      {
+        "url": "/assets/images/roller-gate-automation/kastje-dicht.jpg"
+      }
+    ],
+    "links": [
+      {
+        "name": "Automatisering Rolpoort Documentatie",
+        "url": "/assets/documents/roller-gate-automation/Automatisering-rolpoort-documentatie.pdf"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "tag": "bulk-image-rescaling",
+    "title": "Bulk Image Rescaling",
+    "description": "Automatiseren van het rescalen van 4K afbeeldingen naar Full HD voor een snellere laadtijd van de projectenpagina op een website.",
+    "about": "Tijdens mijn afstudeerstage merkte het bedrijf dat de projectenpagina op de website erg traag laadde. Na onderzoek ontdekte ik dat dit kwam doordat de foto’s van elk project veel 4k afbeeldingen bevatten die allemaal tegelijk werden ingeladen. Er waren dus twee problemen: bestaande afbeeldingen moesten verkleind worden naar Full HD, en toekomstige uploads moesten automatisch op het juiste formaat worden gezet om dit probleem in de toekomst te voorkomen. Om dit proces te automatiseren, schreef ik een Python-script dat door de volledige mapstructuur van de projectfoto’s gaat en elke afbeelding automatisch rescaled van 4K naar Full HD, terwijl de bestandsnamen behouden blijven. Hierdoor voorkwam ik fouten en bespaarde ik enorm veel tijd vergeleken met handmatig rescalen. Daarnaast heb ik met PHP en JavaScript gezorgd dat nieuwe afbeeldingen automatisch worden verkleind vóórdat ze op de server worden geüpload. Hierdoor blijven de laadtijden kort en blijft de site goed presteren.",
+    "used": [
+      "Python",
+      "PHP",
+      "JavaScript"
+    ],
+    "other": "Dit project vond ik interessant omdat het liet zien hoe een relatief klein probleem te grote afbeeldingen grote gevolgen kan hebben voor performance. Door het slim te automatiseren kon ik het probleem efficiënt oplossen en de website weer soepel laten draaien.",
+    "links": [
+      {
+        "name": "Project Documentatie",
+        "url": "/assets/documents/bulk-image-rescaling/Afbeelding_optimalisatie_met_PHP_en_Python.pdf"
+      },
+      {
+        "name": "Code Documentatie",
+        "url": "/assets/documents/bulk-image-rescaling/Documentatie_Python_image_rescale_markdown.pdf"
+      },
+      {
+        "name": "Demonstratie Video",
+        "url": "https://www.youtube.com/watch?v=bkwdHuvxWTI"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "tag": "vintage-stock-market-updates",
+    "title": "Vintage Stock Market Updates",
+    "description": "Hergebruiken van een oud wireless communication systeem tot een retro stock-ticker die aandelenupdates weergeeft op een ingebouwd display.",
+    "about": "Ik ben groot fan van oude techy shit en unieke hardware. Toen ik op een rommelmarkt was kwam ik een oud wireless communication system tegen dat er heel gaaf en retro uitzag. Helaas kreeg ik het originele systeem niet meer werkend, maar de behuizing vond ik te mooi om weg te doen. Ik besloot er iets nieuws van te maken. Ik bouwde een display in de behuizing waarop ik allerlei informatie kon weergeven. In plaats van een simpele klok, koos ik voor iets waar ik toch dagelijks naar kijk: mijn aandelenupdates. Zo wordt het apparaat een soort retro stock-ticker, maar dan volledig mijn eigen creatie.",
+    "other": "Het project was technisch goed te doen en het eindresultaat is precies zoals ik het voor ogen had. Het is nu een toffe eyecatcher op mijn bureau en ook nog eens nuttig. ",
+    "images": [
+      {
+        "name": "Stock Ticker",
+        "url": "/assets/images/stock-market-updates/stock-ticker.jpg"
+      },
+      {
+        "name": "Clock",
+        "url": "/assets/images/stock-market-updates/time.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "tag": "reversdle-game",
+    "title": "Reversdle Game",
+    "description": "Een omgekeerde versie van Wordle waarbij de computer het woord moet raden dat jij in gedachten hebt, gebaseerd op jouw feedback.",
+    "about": "Tijdens een schoolproject kregen een klasgenoot en ik de opdracht om een game te ontwikkelen. We kozen voor Wordle als basis, maar omdat dat al een superbekend spel is, wilden we het niet simpelweg namaken. We zochten een idee dat technisch uitdagender en origineler was. Zo ontstond Reversdle. Het spel werkt in de basis hetzelfde als Wordle, maar dan omgedraaid – deze keer moet de computer het woord raden dat jij in gedachten hebt. Jij geeft bij elke gok aan welke letters goed zijn en welke op de juiste positie staan. Op basis daarvan probeert Reversdle het juiste vijfletterwoord te achterhalen.",
+    "used": [
+      "JavaScript",
       "HTML",
-      "CSS",
+      "CSS"
+    ],
+    "other": "Dit project was heel tof om te maken omdat het een bekend concept pakt, maar dan met een draai. Het algoritme kan het woord meestal al binnen 3 tot 4 beurten raden, wat het echt wel leuk maakt om een woord te zoeken dat de computer niet kan raden. De samenwerking met mijn klasgenoot verliep heel goed. We hadden een duidelijke taakverdeling, waarbij ik natuurlijk verantwoordelijk was voor het technische deel van de code.",
+    "images": [
+      {
+        "name": "Image name",
+        "description": "Description of the image",
+        "url": "/assets/images/project-image.png"
+      }
+    ],
+    "links": [
+      {
+        "name": "Reversdle Game Link",
+        "url": "https://reversdle.web.app/"
+      },
+      {
+        "name": "Reversdle GitHub Repository",
+        "url": "https://github.com/Toby142/reversdle"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Mood Tunes",
+    "description": "Een webapp die via gezichtsherkenning je emotie analyseert en automatisch een bijpassende Spotify-playlist genereert.",
+    "about": "Tijdens een community week op school werkte ik samen met studenten uit verschillende opleidingen en leerjaren. Het thema was AI, en ons doel was ome een creatief en technisch interessant project te maken. Ik nam al snel de leiding binnen het team, omdat ik het leuk vind om structuur te brengen en iedereen op gang te helpen. Eerst liet ik iedereen hun ideeën delen, zodat we samen tot een concept konden komen waar iedereen gemotiveerd aan kon werken. Na een leuke en productieve brainstormsessie ontstond het idee voor MoodTunes: een webapp die via FaceAPI je emotie analyseert en vervolgens automatisch een Spotify-playlist genereert die daarbij past. Als je blij kijkt, krijg je vrolijke muziek; als je serieus kijkt, krijg je nummers met een wat zwaardere toon. Ik werkte samen met een paar medestudenten aan de website zelf en hielp hen met het implementeren van API’s. Ik koos bewust voor de Spotify API, omdat deze goed gedocumenteerd is en een mooie kennismaking biedt met hoe moderne API’s werken. Zo kon ik mijn teamgenoten ook gelijk nieuwe skills leren tijdens het project.",
+    "used": [
       "JavaScript",
       "Spotify API",
-      "Face API"
+      "Face API",
+      "HTML",
+      "CSS"
     ],
-    "other": "Originally conceived during a school project, MoodTunes emerged from a collaborative effort, inspired by the fusion of technology and emotions.",
+    "other": "Tijdens de community week kreeg ik veel complimenten over mijn leidinggevende rol, mijn enthousiasme en hoe ik andere verder hielp in het project. Een aantal docenten zeiden zelfs dat ik ook docent moest worden, iets wat ik als een heel mooi compliment zie.",
     "images": [
+      {
+        "name": "MoodTunes logo",
+        "url": "/assets/images/mood-tunes/moodtunes-2.png"
+      },
       {
         "name": "Home page",
         "description": "The MoodTunes homepage displaying the login screen",
@@ -33,123 +265,17 @@
         "name": "Happy playlist",
         "description": "Generated playlist based on the user's mood. In this case, a happy playlist was generated.",
         "url": "/assets/images/mood-tunes/moodtunes-5.png"
-      },
-      {
-        "name": "MoodTunes logo",
-        "description": "The MoodTunes logo",
-        "url": "/assets/images/mood-tunes/moodtunes-2.png"
       }
     ],
     "links": [
       {
-        "name": "MoodTunes Website (not accessible for unlinked accounts)",
-        "url": "https://moodtunes.tobiasvandeven.nl/"
-      }
-    ]
-  },
-
-  {
-    "id": 2,
-    "tag": "concept-designs",
-    "title": "Labouteille Art - Concept Designs",
-    "description": "Conceptualizing and sketching luxery bear designs for Laboutille art.",
-    "about": "Labouteille Art, a brand by Djarno van der Hoff known for high-end champagne bottle artwork, is expanding itno collectible bear figures. I am responsible for designing the initial concepts, creating hand-drawn digital sketches that explore different syles and aesthetics aligned with the brand's identity. WOrking closely with Djarno, we meet montly to review ideas, set deadlines, and refine the product line's direction. Once finalized, my concepts are translated into 3D models by a production team.",
-    "used": [
-      "Procreate (for digital sketches)"
-    ],
-    "other": "This project requires a balance between creativity and brand consistency, ensuring each bear design fits withing the luxery aesthetic of Labouteille Art. The collaboration is ongoing, with new concepts regularly being developed and refined.",
-    "images": [
-      {
-        "name": "Original Bear Concept",
-        "url": "/assets/images/labouteille-bears/Angry-bear-origional.png"
-      },
-      {
-        "name": "Valentine's Edition Bear Concept",
-        "url": "/assets/images/labouteille-bears/Angry-bear-valentines-edition.png"
-      },
-      {
-        "name": "Champagne Ice Bucket Bear Concept",
-        "url": "/assets/images/labouteille-bears/Angry-bear-icebucket_watermark.PNG"
-      }
-    ],
-    "links": [
-      {
-        "name": "Laboutille Art Website",
-        "url": "https://www.labouteilles.nl"
-      },
-      {
-        "name": "Finalized Bear on Laboutille Art Website",
-        "url": "https://www.labouteilles.nl/collections/bottle-bears"
+        "name": "Mood Tunes GitHub Repository",
+        "url": "https://github.com/Toby142/mood-tunes-app"
       }
     ]
   },
   {
-    "id": 3,
-    "tag": "kcperformance-webshop",
-    "title": "Exam - New Webshop Design",
-    "description": "Improved webshop design, developed based on research and analysis report.",
-    "about": "During my fourth-year internship at Yonder Tilburg, in collaboration with KCPerformance, I was tasked with improving their webshop. Initially, this was supposed to be done through Upwork, a platform for hiring freelancers, specifically a Shopify developer, as I had no prior experience with Shopify. KCPerformance already had an existing webshop, but it faced multiple issues, which led to the decision to create a new one. Since I was unfamiliar with the webshop and its problems, I decided to conduct a thorough analysis. I researched and documented the webshop’s structure and its pain points [1], allowing me to gain a clear understanding of the existing situation.",
-    "used": [
-      "Figma",
-      "Shopify",
-      "UX Research"
-    ],
-    "other": "For the research and analysis, I mainly examined other webshops, focusing on visual analysis and identifying trends. While this approach was valuable, I realize that a more in-depth logical analysis would have been beneficial for future projects. The design process itself was less structured than I would have liked. Although I am satisfied with the final result—a wireframe [2] and a completed design [3]—I wish I had spent more time researching how successful webshops function and perform well on Google before starting the design process. After completing my designs, I received feedback, which I documented and carefully considered for possible improvements [4].",
-    "images": [
-      {
-        "name": "Home Page",
-        "description": "The KCPerformance webshop home page",
-        "url": "/assets/images/kcperformance_webshop_design/kcperformance_1.png"
-      },
-      {
-        "name": "Mobile Hompage Design",
-        "description": "The KCPerformance webshop mobile homepage design",
-        "url": "/assets/images/kcperformance_webshop_design/kcperformance_2.png"
-      },
-      {
-        "url": "/assets/images/kcperformance_webshop_design/kcperformance_3.png"
-      }
-    ],
-    "links": [
-      {
-        "name": "[1] Research_and_Analysis_Report.pdf",
-        "url": "/assets/documents/kcperformance_webshop_design/Research_and_Analysis_Report.pdf"
-      },
-      {
-        "name": "[2] KCPerformance_Webshop_Wireframe.fig",
-        "url": "/assets/documents/kcperformance_webshop_design/KCPerformance_webshop_wireframe.fig"
-      },
-      {
-        "name": "[3] KCPerformance_Webshop_Design.fig",
-        "url": "/assets/documents/kcperformance_webshop_design/KCPerformance_webshop.fig"
-      },
-      {
-        "name": "[4] Improvements_and_Solutions.pdf",
-        "url": "/assets/documents/kcperformance_webshop_design/KCPerformance_webshop_Improvements_and_Solutions.pdf"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "tag": "spotify-currently-playing",
-    "title": "Spotify Record Player",
-    "description": "A project that displays your currently playing Spotify song, inspired by the aesthetic of a record player.",
-    "about": "As a huge music lover, I'm always jamming to my favorite tunes. However, I don't have all the records I'd like to see spinning on a turntable. That's why I created this app using Angular and the Spotify Web API. It allows you to log in to your Spotify account and shows you the song you're currently playing, giving you that nostalgic feeling of watching a record spin on a turntable.",
-    "used": [
-      "Angular",
-      "Spotify Web API"
-    ],
-    "other": "I'm incredibly proud of this project. It was a fantastic opportunity to combine my passion for music with my development skills. Along the way, I gained valuable knowledge about Spotify authentication and exploring the Spotify Web API. Now I can groove to my favorite tracks and enjoy the aesthetics of a virtual record player!",
-    "images": [
-      {
-        "name": "App layout",
-        "description": "Currently playing MF DOOM!",
-        "url": "/assets/images/spotify-app-1.png"
-      }
-    ]
-  },
-  {
-    "id": 5,
+    "id": 10,
     "tag": "Projects Portfolio",
     "title": "Projects Portfolio",
     "description": "A portfolio website to showcase all of my projects.",
@@ -178,127 +304,5 @@
         "url": "https://github.com/Toby142/project-portfolio"
       }
     ]
-  },
-  {
-    "id": 6,
-    "tag": "painter-api",
-    "title": "Painter API",
-    "description": "An API showcasing old painters and their artwork, like an Instagram for old painters.",
-    "about": "This project was born during my internship, and it's all about celebrating the works of old painters. Think of it as an Instagram for old painters! I developed this API using Spring Boot and Java, putting my skills to the test. It provides various endpoints to manage painters and their artwork, allowing you to explore and interact with their masterpieces.",
-    "used": [
-      "Spring Boot",
-      "Java"
-    ],
-    "other": "Developing this API was a fantastic opportunity for me to dive into the world of web development and showcase my abilities with Spring Boot and Java. It was a labor of love, and I hope it sparks your interest in the remarkable works of old painters!",
-    "images": [
-      {
-        "name": "Nachtwacht",
-        "description": "",
-        "url": "/assets/images/painter-api-1.png"
-      }
-    ],
-    "links": [
-      {
-        "name": "Github Repo",
-        "url": "https://github.com/Toby142/painter-api"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "tag": "spotlight-cinema",
-    "title": "Spotlight Cinema",
-    "description": "An app designed for a cinema, browse movies, book tickets, and participate in movie voting for the next screening.",
-    "about": "Spotlight Cinema was a captivating project where we transformed a pre-designed concept into a functional cinema app. With a focus on frontend development, the app offered users the ability to explore movie listings, reserve tickets, and engage in an intriguing feature: movie voting. This unique feature empowered users to influence the next week's movie screening by voting for their preferred film. Designed to cater to movie enthusiasts who struggle with choosing a movie, Spotlight Cinema provided a solution while enhancing user engagement.",
-    "used": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "jQuery"
-    ],
-    "other": "Utilizing the provided API, we seamlessly integrated backend functionality into the app. Spotlight Cinema was a testament to our frontend development skills, showcasing our ability to bring designs to life and create an immersive user experience.",
-    "images": [
-      {
-        "name": "Home Page",
-        "description": "The Spotlight Cinema home page",
-        "url": "/assets/images/spotlight-cinema/spotlightcinema-1.png"
-      },
-      {
-        "name": "Voting Feature",
-        "description": "The Spotlight Cinema voting feature",
-        "url": "/assets/images/spotlight-cinema/spotlightcinema-2.png"
-      }
-    ],
-    "links": [
-      {
-        "name": "Spotlight Cinema Website (mobile only)",
-        "url": "https://spotlight-cinema.tobiasvandeven.nl/"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "tag": "jarpis-internship",
-    "title": "Jarpis Internship",
-    "description": "A year-long internship at Jarpis, where I worked on various projects and gained valuable experience.",
-    "about": "During my internship at Jarpis, I had the opportunity to work on a wide range of projects, each offering unique challenges and learning experiences. I was involved in developing web applications, creating APIs, and contributing to the front-end and back-end of various projects. My time at Jarpis was incredibly rewarding, allowing me to grow as a developer and gain valuable insights into the industry.",
-    "used": [
-      "Angular",
-      "Spring Boot",
-      "Java",
-      "TypeScript", 
-      "Tailwind CSS"
-    ],
-    "other": "My internship at Jarpis was a pivotal experience that shaped my skills and knowledge as a developer. I'm grateful for the opportunity to work on diverse projects and collaborate with talented professionals. It was a year of growth, learning, and unforgettable memories.",
-    "images": [
-      {
-        "name": "Jarpis BV",
-        "description": "The company where I did my internship at",
-        "url": "/assets/images/jarpis/jarpis-1.png"
-      },
-      {
-        "name": "Desk setup",
-        "description": "The place where I spend most of my time during my internship at Jarpis",
-        "url": "/assets/images/jarpis/jarpis-2.JPG"
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "tag": "anna-housing", 
-    "title": "Anna Housing",
-    "description": "A website for Anna Housing showcasing a house in Scheveningen.",
-    "about": "I developed this website for Anna Housing using Angular. The design of the website is clean and modern, with a focus on simplicity and elegance. I built the entire website from scratch, including the design, layout, and functionality. One of the notable features of the website is the integration of EmailJS, which allows visitors to send inquiries directly from the website.",
-    "used": [
-      "Angular",
-      "EmailJS"
-    ],
-    "other": "This project was one of my first paid Angular websites, and it provided me with valuable experience in working with Angular and implementing client-side functionality. I thoroughly enjoyed creating this website and delivering a high-quality product to Anna Housing.",
-    "images": [
-      {
-        "name": "Anna Housing",
-        "description": "Screenshot",
-        "url": "/assets/images/anna-housing-1.png"
-      },
-      {
-        "name": "Anna Housing",
-        "description": "Screenshot",
-        "url": "/assets/images/anna-housing-2.png"
-      },
-      {
-        "name": "Anna Housing",
-        "description": "Screenshot",
-        "url": "/assets/images/anna-housing-3.png"
-      }
-    ],
-    "links": [
-      {
-        "name": "Github Repo",
-        "url": "https://github.com/Toby142/anna-housing"
-      }
-    ]
   }
-  
-  
-  
 ]

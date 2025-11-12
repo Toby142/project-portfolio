@@ -1,182 +1,304 @@
 [
-    {
-      "id": 1,
-      "tag": "anna-housing", 
-      "title": "Anna Housing",
-      "description": "A website for Anna Housing showcasing a house in Scheveningen.",
-      "about": "I developed this website for Anna Housing using Angular. The design of the website is clean and modern, with a focus on simplicity and elegance. I built the entire website from scratch, including the design, layout, and functionality. One of the notable features of the website is the integration of EmailJS, which allows visitors to send inquiries directly from the website.",
-      "used": [
-        "Angular",
-        "EmailJS"
-      ],
-      "other": "This project was one of my first paid Angular websites, and it provided me with valuable experience in working with Angular and implementing client-side functionality. I thoroughly enjoyed creating this website and delivering a high-quality product to Anna Housing.",
-      "images": [
-        {
-          "name": "Anna Housing",
-          "description": "Screenshot",
-          "url": "/assets/images/anna-housing-1.png"
-        },
-        {
-          "name": "Anna Housing",
-          "description": "Screenshot",
-          "url": "/assets/images/anna-housing-2.png"
-        },
-        {
-          "name": "Anna Housing",
-          "description": "Screenshot",
-          "url": "/assets/images/anna-housing-3.png"
-        }
-      ],
-      "links": [
-        {
-          "name": "Github Repo",
-          "url": "https://github.com/Toby142/anna-housing"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "tag": "painter-api",
-      "title": "Painter API",
-      "description": "An API showcasing old painters and their artwork, like an Instagram for old painters.",
-      "about": "This project was born during my internship, and it's all about celebrating the works of old painters. Think of it as an Instagram for old painters! I developed this API using Spring Boot and Java, putting my skills to the test. It provides various endpoints to manage painters and their artwork, allowing you to explore and interact with their masterpieces.",
-      "used": [
-        "Spring Boot",
-        "Java"
-      ],
-      "other": "Developing this API was a fantastic opportunity for me to dive into the world of web development and showcase my abilities with Spring Boot and Java. It was a labor of love, and I hope it sparks your interest in the remarkable works of old painters!",
-      "images": [
-        {
-          "name": "API Screenshot",
-          "description": "Screenshot of the Painter API in action",
-          "url": "/assets/images/painter-api-1.png"
-        }
-      ],
-      "links": [
-        {
-          "name": "Github Repo",
-          "url": "https://github.com/Toby142/painter-api"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "tag": "spotify-currently-playing",
-      "title": "What you listening to?",
-      "description": "A project that displays your currently playing Spotify song, inspired by the aesthetic of a record player.",
-      "about": "As a huge music lover, I'm always jamming to my favorite tunes. However, I don't have all the records I'd like to see spinning on a turntable. That's why I created this app using Angular and the Spotify Web API. It allows you to log in to your Spotify account and shows you the song you're currently playing, giving you that nostalgic feeling of watching a record spin on a turntable.",
-      "used": [
-        "Angular",
-        "Spotify Web API"
-      ],
-      "other": "I'm incredibly proud of this project. It was a fantastic opportunity to combine my passion for music with my development skills. Along the way, I gained valuable knowledge about Spotify authentication and exploring the Spotify Web API. Now I can groove to my favorite tracks and enjoy the aesthetics of a virtual record player!",
-      "images": [
-        {
-          "name": "App layout",
-          "description": "Currently playing MF DOOM!",
-          "url": "/assets/images/spotify-app-1.png"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "tag": "dog-extension",
-      "title": "Dog Extension",
-      "description": "It's a VS Code extension that brings a doggy to your screen when you type 'Woof Woof'",
-      "about": "Hey there! So, I created this super cool extension for VS Code, and it's all about dogs! Whenever you type 'Woof Woof' while coding, a cute doggy pops up on your screen. It's meant to keep you happy, motivated, and have a bit of fun during your coding sessions!",
-      "used": [
-        "Visual Studio Code API",
-        "TypeScript",
-        "Random Dog API"
-      ],
-      "other": "This project was a blast! I got to dig into the world of VS Code extension development and let my creativity run wild. It's a small thing, but I hope it brings a smile to your face and brightens up your coding experience!",
-      "images": [
-        {
-          "name": "Doggy Screenshot",
-          "description": "Screenshot of the adorable doggy appearing in VS Code",
-          "url": "/assets/images/placeholder-img.jpg"
-        }
-      ],
-      "links": [
-        {
-          "name": "Github Repo",
-          "url": "https://github.com/Toby142/dog-extention"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "tag": "Projects Portfolio",
-      "title": "Projects Portfolio",
-      "description": "A portfolio website to showcase all of my projects.",
-      "about": "This is the website you are currently on. I made this website to showcase my projects. The structure of the project has 2 core components: The list of projects, and the project page.",
-      "used": [
-        "Angular",
-        "Tailwind CSS",
-        "Json"
-      ],
-      "other": "I coded this project with the idea to get everything from the json file (like an API response). The project link sends an id, and the project page handels all the data.",
-      "links": [
-        {
-          "name": "Github/Toby142/project-portfolio",
-          "url": "https://github.com/Toby142/project-portfolio"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "tag": "favomedic",
-      "title": "Favomedic Frontend",
-      "description": "A web application for Favomedic, during my internship at Jarpis.",
-      "about": "During my internship at Jarpis, I had the opportunity to contribute to the development of the front-end for the impressive web application, Favomedic. Within this role, my primary focus was on creating aesthetically pleasing and well-designed components. As I grew more proficient, my responsibilities expanded to encompass writing and implementing the application's core logic.",
-      "used": [
-        "Angular",
-        "TypeScript",
-        "Tailwind CSS",
-        "ng-zorro-antd"
-      ],
-      "other": "This is the project where I learned to work with the Angular framework and TypeScript. This also gave me a look in how web-apps are build, I have learned a lot from this project."
-    },
-    {
-      "id": 7,
-      "tag": "js-dice",
-      "title": "JS Dice",
-      "description": "A simple dice game made with JavaScript. Object-oriented programming",
-      "about": "This was a school assignment where I built a dice using JavaScript. The main focus of the project was to enhance our object-oriented programming skills while having some fun with dice rolling. The project also includes functionality to gather statistics about the rolled dice, giving you insights into your luck!",
-      "used": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "other": "Working on JS Dice was a great learning experience. It allowed me to deepen my understanding of object-oriented programming principles and apply them in a practical way. Plus, who doesn't love rolling virtual dice and seeing their statistics? It's a small project, but it brought a lot of enjoyment and knowledge along the way.",
-      "links": [
-        {
-          "name": "JS Dice Website",
-          "url": "https://sites.tobiasvandeven.nl/watheeft21ogenmaarkannietzien/"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "tag": "terminal-portfolio",
-      "title": "Terminal Portfolio",
-      "description": "A portfolio website designed as a terminal interface.",
-      "about": "I created the Terminal Portfolio as a personal project to showcase my skills and projects in a unique way. It was a fun and exciting challenge to build a portfolio that mimics a terminal interface using JavaScript and CSS. I had complete control over the design and functionality, allowing me to experiment and implement various features. This project allowed me to demonstrate my proficiency in front-end development and creativity in user interface design.",
-      "used": [
-        "JavaScript",
-        "CSS"
-      ],
-      "other": "I enjoyed the freedom to create a custom and interactive user experience. It was an excellent learning experience that enhanced my skills in web development.",
-      "links": [
-        {
-          "name": "Github Repo",
-          "url": "https://github.com/Toby142/TerminalPortofolio"
-        },
-        {
-          "name": "Project Portfolio Website",
-          "url": "https://sites.tobiasvandeven.nl/terminal/"
-        }
-      ]
-    }
+  {
+    "id": 1,
+    "tag": "mood-tunes",
+    "title": "MoodTunes",
+    "description": "An app that analyzes facial expressions to generate personalized Spotify playlists based on mood.",
+    "about": "MoodTunes is an innovative application utilizing the Spotify API and the Face API to create tailored playlists according to users' emotions and musical preferences.",
+    "used": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Spotify API",
+      "Face API"
+    ],
+    "other": "Originally conceived during a school project, MoodTunes emerged from a collaborative effort, inspired by the fusion of technology and emotions.",
+    "images": [
+      {
+        "name": "Home page",
+        "description": "The MoodTunes homepage displaying the login screen",
+        "url": "/assets/images/mood-tunes/moodtunes-1.png"
+      },
+      {
+        "name": "Logged in",
+        "description": "When logged in, the app welcomes you with your name and profile picture.",
+        "url": "/assets/images/mood-tunes/moodtunes-3.png"
+      },
+      {
+        "name": "Sad playlist",
+        "description": "Generated playlist based on the user's mood. In this case, a sad playlist was generated.",
+        "url": "/assets/images/mood-tunes/moodtunes-4.png"
+      },
+      {
+        "name": "Happy playlist",
+        "description": "Generated playlist based on the user's mood. In this case, a happy playlist was generated.",
+        "url": "/assets/images/mood-tunes/moodtunes-5.png"
+      },
+      {
+        "name": "MoodTunes logo",
+        "description": "The MoodTunes logo",
+        "url": "/assets/images/mood-tunes/moodtunes-2.png"
+      }
+    ],
+    "links": [
+      {
+        "name": "MoodTunes Website (not accessible for unlinked accounts)",
+        "url": "https://moodtunes.tobiasvandeven.nl/"
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "tag": "concept-designs",
+    "title": "Labouteille Art - Concept Designs",
+    "description": "Conceptualizing and sketching luxery bear designs for Laboutille art.",
+    "about": "Labouteille Art, a brand by Djarno van der Hoff known for high-end champagne bottle artwork, is expanding itno collectible bear figures. I am responsible for designing the initial concepts, creating hand-drawn digital sketches that explore different syles and aesthetics aligned with the brand's identity. WOrking closely with Djarno, we meet montly to review ideas, set deadlines, and refine the product line's direction. Once finalized, my concepts are translated into 3D models by a production team.",
+    "used": [
+      "Procreate (for digital sketches)"
+    ],
+    "other": "This project requires a balance between creativity and brand consistency, ensuring each bear design fits withing the luxery aesthetic of Labouteille Art. The collaboration is ongoing, with new concepts regularly being developed and refined.",
+    "images": [
+      {
+        "name": "Original Bear Concept",
+        "url": "/assets/images/labouteille-bears/Angry-bear-origional.png"
+      },
+      {
+        "name": "Valentine's Edition Bear Concept",
+        "url": "/assets/images/labouteille-bears/Angry-bear-valentines-edition.png"
+      },
+      {
+        "name": "Champagne Ice Bucket Bear Concept",
+        "url": "/assets/images/labouteille-bears/Angry-bear-icebucket_watermark.PNG"
+      }
+    ],
+    "links": [
+      {
+        "name": "Laboutille Art Website",
+        "url": "https://www.labouteilles.nl"
+      },
+      {
+        "name": "Finalized Bear on Laboutille Art Website",
+        "url": "https://www.labouteilles.nl/collections/bottle-bears"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "tag": "kcperformance-webshop",
+    "title": "Exam - New Webshop Design",
+    "description": "Improved webshop design, developed based on research and analysis report.",
+    "about": "During my fourth-year internship at Yonder Tilburg, in collaboration with KCPerformance, I was tasked with improving their webshop. Initially, this was supposed to be done through Upwork, a platform for hiring freelancers, specifically a Shopify developer, as I had no prior experience with Shopify. KCPerformance already had an existing webshop, but it faced multiple issues, which led to the decision to create a new one. Since I was unfamiliar with the webshop and its problems, I decided to conduct a thorough analysis. I researched and documented the webshop’s structure and its pain points [1], allowing me to gain a clear understanding of the existing situation.",
+    "used": [
+      "Figma",
+      "Shopify",
+      "UX Research"
+    ],
+    "other": "For the research and analysis, I mainly examined other webshops, focusing on visual analysis and identifying trends. While this approach was valuable, I realize that a more in-depth logical analysis would have been beneficial for future projects. The design process itself was less structured than I would have liked. Although I am satisfied with the final result—a wireframe [2] and a completed design [3]—I wish I had spent more time researching how successful webshops function and perform well on Google before starting the design process. After completing my designs, I received feedback, which I documented and carefully considered for possible improvements [4].",
+    "images": [
+      {
+        "name": "Home Page",
+        "description": "The KCPerformance webshop home page",
+        "url": "/assets/images/kcperformance_webshop_design/kcperformance_1.png"
+      },
+      {
+        "name": "Mobile Hompage Design",
+        "description": "The KCPerformance webshop mobile homepage design",
+        "url": "/assets/images/kcperformance_webshop_design/kcperformance_2.png"
+      },
+      {
+        "url": "/assets/images/kcperformance_webshop_design/kcperformance_3.png"
+      }
+    ],
+    "links": [
+      {
+        "name": "[1] Research_and_Analysis_Report.pdf",
+        "url": "/assets/documents/kcperformance_webshop_design/Research_and_Analysis_Report.pdf"
+      },
+      {
+        "name": "[2] KCPerformance_Webshop_Wireframe.fig",
+        "url": "/assets/documents/kcperformance_webshop_design/KCPerformance_webshop_wireframe.fig"
+      },
+      {
+        "name": "[3] KCPerformance_Webshop_Design.fig",
+        "url": "/assets/documents/kcperformance_webshop_design/KCPerformance_webshop.fig"
+      },
+      {
+        "name": "[4] Improvements_and_Solutions.pdf",
+        "url": "/assets/documents/kcperformance_webshop_design/KCPerformance_webshop_Improvements_and_Solutions.pdf"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "tag": "spotify-currently-playing",
+    "title": "Spotify Record Player",
+    "description": "A project that displays your currently playing Spotify song, inspired by the aesthetic of a record player.",
+    "about": "As a huge music lover, I'm always jamming to my favorite tunes. However, I don't have all the records I'd like to see spinning on a turntable. That's why I created this app using Angular and the Spotify Web API. It allows you to log in to your Spotify account and shows you the song you're currently playing, giving you that nostalgic feeling of watching a record spin on a turntable.",
+    "used": [
+      "Angular",
+      "Spotify Web API"
+    ],
+    "other": "I'm incredibly proud of this project. It was a fantastic opportunity to combine my passion for music with my development skills. Along the way, I gained valuable knowledge about Spotify authentication and exploring the Spotify Web API. Now I can groove to my favorite tracks and enjoy the aesthetics of a virtual record player!",
+    "images": [
+      {
+        "name": "App layout",
+        "description": "Currently playing MF DOOM!",
+        "url": "/assets/images/spotify-app-1.png"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "tag": "Projects Portfolio",
+    "title": "Projects Portfolio",
+    "description": "A portfolio website to showcase all of my projects.",
+    "about": "This is the website you are currently on. I made this website to showcase my projects. The structure of the project has 2 core components: The list of projects, and the project page.",
+    "used": [
+      "Angular",
+      "Tailwind CSS",
+      "Json"
+    ],
+    "other": "I coded this project with the idea to get everything from the json file (like an API response). The project link sends an id, and the project page handels all the data.",
+    "images": [
+      {
+        "name": "Design",
+        "description": "Early stages of the design!",
+        "url": "/assets/images/project-portfolio/projectportfolio-1.png"
+      },
+      {
+        "name": "Json",
+        "description": "A snippet of the json file that holds all the project data.",
+        "url": "/assets/images/project-portfolio/projectportfolio-2.png"
+      }
+    ],
+    "links": [
+      {
+        "name": "Github/Toby142/project-portfolio",
+        "url": "https://github.com/Toby142/project-portfolio"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "tag": "painter-api",
+    "title": "Painter API",
+    "description": "An API showcasing old painters and their artwork, like an Instagram for old painters.",
+    "about": "This project was born during my internship, and it's all about celebrating the works of old painters. Think of it as an Instagram for old painters! I developed this API using Spring Boot and Java, putting my skills to the test. It provides various endpoints to manage painters and their artwork, allowing you to explore and interact with their masterpieces.",
+    "used": [
+      "Spring Boot",
+      "Java"
+    ],
+    "other": "Developing this API was a fantastic opportunity for me to dive into the world of web development and showcase my abilities with Spring Boot and Java. It was a labor of love, and I hope it sparks your interest in the remarkable works of old painters!",
+    "images": [
+      {
+        "name": "Nachtwacht",
+        "description": "",
+        "url": "/assets/images/painter-api-1.png"
+      }
+    ],
+    "links": [
+      {
+        "name": "Github Repo",
+        "url": "https://github.com/Toby142/painter-api"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "tag": "spotlight-cinema",
+    "title": "Spotlight Cinema",
+    "description": "An app designed for a cinema, browse movies, book tickets, and participate in movie voting for the next screening.",
+    "about": "Spotlight Cinema was a captivating project where we transformed a pre-designed concept into a functional cinema app. With a focus on frontend development, the app offered users the ability to explore movie listings, reserve tickets, and engage in an intriguing feature: movie voting. This unique feature empowered users to influence the next week's movie screening by voting for their preferred film. Designed to cater to movie enthusiasts who struggle with choosing a movie, Spotlight Cinema provided a solution while enhancing user engagement.",
+    "used": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "jQuery"
+    ],
+    "other": "Utilizing the provided API, we seamlessly integrated backend functionality into the app. Spotlight Cinema was a testament to our frontend development skills, showcasing our ability to bring designs to life and create an immersive user experience.",
+    "images": [
+      {
+        "name": "Home Page",
+        "description": "The Spotlight Cinema home page",
+        "url": "/assets/images/spotlight-cinema/spotlightcinema-1.png"
+      },
+      {
+        "name": "Voting Feature",
+        "description": "The Spotlight Cinema voting feature",
+        "url": "/assets/images/spotlight-cinema/spotlightcinema-2.png"
+      }
+    ],
+    "links": [
+      {
+        "name": "Spotlight Cinema Website (mobile only)",
+        "url": "https://spotlight-cinema.tobiasvandeven.nl/"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "tag": "jarpis-internship",
+    "title": "Jarpis Internship",
+    "description": "A year-long internship at Jarpis, where I worked on various projects and gained valuable experience.",
+    "about": "During my internship at Jarpis, I had the opportunity to work on a wide range of projects, each offering unique challenges and learning experiences. I was involved in developing web applications, creating APIs, and contributing to the front-end and back-end of various projects. My time at Jarpis was incredibly rewarding, allowing me to grow as a developer and gain valuable insights into the industry.",
+    "used": [
+      "Angular",
+      "Spring Boot",
+      "Java",
+      "TypeScript", 
+      "Tailwind CSS"
+    ],
+    "other": "My internship at Jarpis was a pivotal experience that shaped my skills and knowledge as a developer. I'm grateful for the opportunity to work on diverse projects and collaborate with talented professionals. It was a year of growth, learning, and unforgettable memories.",
+    "images": [
+      {
+        "name": "Jarpis BV",
+        "description": "The company where I did my internship at",
+        "url": "/assets/images/jarpis/jarpis-1.png"
+      },
+      {
+        "name": "Desk setup",
+        "description": "The place where I spend most of my time during my internship at Jarpis",
+        "url": "/assets/images/jarpis/jarpis-2.JPG"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "tag": "anna-housing", 
+    "title": "Anna Housing",
+    "description": "A website for Anna Housing showcasing a house in Scheveningen.",
+    "about": "I developed this website for Anna Housing using Angular. The design of the website is clean and modern, with a focus on simplicity and elegance. I built the entire website from scratch, including the design, layout, and functionality. One of the notable features of the website is the integration of EmailJS, which allows visitors to send inquiries directly from the website.",
+    "used": [
+      "Angular",
+      "EmailJS"
+    ],
+    "other": "This project was one of my first paid Angular websites, and it provided me with valuable experience in working with Angular and implementing client-side functionality. I thoroughly enjoyed creating this website and delivering a high-quality product to Anna Housing.",
+    "images": [
+      {
+        "name": "Anna Housing",
+        "description": "Screenshot",
+        "url": "/assets/images/anna-housing-1.png"
+      },
+      {
+        "name": "Anna Housing",
+        "description": "Screenshot",
+        "url": "/assets/images/anna-housing-2.png"
+      },
+      {
+        "name": "Anna Housing",
+        "description": "Screenshot",
+        "url": "/assets/images/anna-housing-3.png"
+      }
+    ],
+    "links": [
+      {
+        "name": "Github Repo",
+        "url": "https://github.com/Toby142/anna-housing"
+      }
+    ]
+  }
   
-  ]
+  
+  
+]

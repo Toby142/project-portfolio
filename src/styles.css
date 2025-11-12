@@ -16,3 +16,7 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+
+.back-button {
+  cursor: pointer;
+}

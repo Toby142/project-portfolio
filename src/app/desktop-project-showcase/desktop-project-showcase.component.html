@@ -1,18 +1,18 @@
-<div class="text-5xl font-bold lg:my-8 lg:text-center">I count {{project.length + 3}} <span class="red-underline" routerLink="/list">projects</span>, you too?</div>
+<div class="text-5xl font-bold lg:my-8 lg:text-center">Ik tel {{project.length + 3}} <span class="red-underline" routerLink="/list">projecten</span>, jij ook?</div>
 <div class="flex flex-col">
     <app-featured-projects [hideTitle]="true"></app-featured-projects>
 </div>
 
 <div class="cards-container my-4">
     <div *ngFor="let p of project" class="card" [routerLink]="['/project/', p.id]">
-        <div class="card-title">{{this.p.title}}</div>
-        <div class="text-sm text-gray-500">{{ this.p.description }}</div>
+        <div class="card-title">{{p.title}}</div>
+        <div class="text-sm text-gray-500">{{p.description }}</div>
     </div>
 
 
 </div>
 <div class="flex flex-col items-center">
     <div class="text-center w-1/2 search-card bg-primary font-bold" routerLink="/list">
-        SEARCH FOR A PROJECT <span class="text-xl">+</span>
+        ZOEK EEN PROJECT <span class="text-xl">+</span>
     </div>
 </div>    

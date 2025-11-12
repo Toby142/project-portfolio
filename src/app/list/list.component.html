@@ -2,8 +2,8 @@
   <a routerLink="/home" class="text-3xl text-white bg-black p-3 w-16 text-center">
     <
   </a>
-  <input class="nav-title lg:hidden" placeholder="Q PROJECT" type="text" #projectInput (input)="filterProjects(projectInput.value)">
-  <input class="nav-title hidden lg:block" placeholder="SEARCH FOR A PROJECT" type="text" #projectInput (input)="filterProjects(projectInput.value)">
+  <input class="nav-title lg:hidden" placeholder="ZOEK EEN PROJECT" type="text" #projectInput (input)="filterProjects(projectInput.value)">
+  <input class="nav-title hidden lg:block" placeholder="ZOEK EEN PROJECT" type="text" #projectInput (input)="filterProjects(projectInput.value)">
 
 </div>
 
@@ -17,6 +17,6 @@
   <!-- nothing found prompt -->
   <div class="text-center my-10" *ngIf="projects.length === 0">
     <div class="text-3xl">:/</div>
-    <div class="text-xl">No projects found</div>
+    <div class="text-xl">Geen projecten gevonden.</div>
   </div>
 </div>

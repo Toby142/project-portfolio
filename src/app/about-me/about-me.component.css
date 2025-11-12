@@ -136,6 +136,14 @@
     transform: translate(35px, -15px) rotate(-10deg);
 }
 
+.p-right:nth-child(4) {
+    transform: translate(55px, 0px) rotate(7deg);
+}
+
+.p-right:nth-child(5) {
+    transform: translate(75px, -10px) rotate(-3deg);
+}
+
 .polaroid-stack:hover .p-right:nth-child(1) {
     transform: translate(50px, -25px) rotate(-2deg);
 }
@@ -146,6 +154,14 @@
 
 .polaroid-stack:hover .p-right:nth-child(3) {
     transform: translate(-55px, -15px) rotate(5deg);
+}
+
+.polaroid-stack:hover .p-right:nth-child(4) {
+    transform: translate(-250px, 0px) rotate(-5deg);
+}
+
+.polaroid-stack:hover .p-right:nth-child(5) {
+    transform: translate(-350px, -10px) rotate(3deg);
 }
 
 /* break for desktop */
